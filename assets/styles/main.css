@@ -1,5 +1,5 @@
 /* CSS RESET */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,68 +18,68 @@ img {
   display: block;
 }
 
-.container{
+.container {
   position: relative;
 }
 
 .main-nav-red {
-  background-color: #F72210;
+  background-color: #f72210;
   padding: 20px;
   align-content: center;
 }
 
-.middlenav{
+.middlenav {
   padding: 20px;
 }
 
-.search{
+.search {
   border: 0 none;
 }
 
-.search-icon{
-        background: url(../images/icon-search-glass.svg) center/contain no-repeat white;
-        width: 20px;
-        height: 26px;
-        clip: auto;
-        font-size: 0;
-        position: absolute;
-        top: 131px;
-        right: 133px;
+.search-icon {
+  background: url(../images/icon-search-glass.svg) center/contain no-repeat
+    white;
+  width: 20px;
+  height: 26px;
+  clip: auto;
+  font-size: 0;
+  position: absolute;
+  top: 131px;
+  right: 133px;
 }
 
-.middlenav::before{
-    position: absolute;
-    top: 109px;
-    right: 15px;
-    content: "";
-    display: block;
-    width: 87px;
-    background-color: #f72210;
-    border-left: 12px solid white;
-    border-top: 13px solid #f72210;
-
+.middlenav::before {
+  position: absolute;
+  top: 109px;
+  right: 15px;
+  content: "";
+  display: block;
+  width: 87px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
 }
 
-.nav-red-right img{
-width: 27px;
-height: 16px;
+.nav-red-right img {
+  width: 27px;
+  height: 16px;
 }
 
-.nav-red-right span{
+.nav-red-right span {
   color: #fff;
 }
 
-date{
+date {
   color: #fff;
 }
 
-.nav-red-mid svg{
-width: 410px;
-height: 70px;
-fill: #fff;
+.nav-red-mid svg {
+  width: 410px;
+  height: 70px;
+  fill: #fff;
 }
 
-.btn-1{
+.btn-1 {
   text-transform: uppercase;
   border-radius: 24px;
   color: #fff;
@@ -92,7 +92,7 @@ fill: #fff;
   font-weight: 600;
 }
 
-.btn-sub{
+.btn-sub {
   color: #000;
   border-radius: 24px;
   font-size: 18px;
@@ -103,11 +103,11 @@ fill: #fff;
   padding-right: 15px;
 }
 
-.decor{
+.decor {
   position: relative;
 }
 
-.decor::before{
+.decor::before {
   content: "";
   display: block;
   background-color: #d9d9d9;
@@ -118,7 +118,7 @@ fill: #fff;
   top: calc(50% - 2px);
 }
 
-.decor::after{
+.decor::after {
   content: "";
   display: block;
   background-color: #d9d9d9;
@@ -129,16 +129,15 @@ fill: #fff;
   top: 50%;
 }
 
-.c-vs{
-      position: relative;
-      z-index: 1;
-      width: 32px;
-      height: 32px;
-      background-color: #000;
-      color: #d6d6d6;
-      border-radius: 50%;
-      font: bold 14px/32px "Roboto Condensed",
-      sans-serif;
-      text-align: center;
-      margin: 6px auto;
+.c-vs {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 6px auto;
 }
