@@ -20,6 +20,7 @@ img {
 
 .container {
   position: relative;
+  width: 100%;
 }
 
 .main-nav-red {
@@ -146,7 +147,7 @@ date {
 .flexcontainer {
   width: 1110px;
   margin: 0 auto;
-  gap: 5px;
+  gap: 15px;
 }
 .featured-header {
   color: rgba(3, 3, 3, 0.4);
@@ -161,4 +162,35 @@ date {
 .description {
   font-size: 20px;
   font-weight: bolder;
+}
+
+.top-story-header{
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed",
+  sans-serif;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+.biden-img-1{
+  width: 512px;
+  height: 325px;
+}
+
+.top-story-para{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main-grid {
+  margin: 0 auto;
+}
+
+.main-grid img{
+  width: 155px;
+  height: 155px;
+}
+
+.culture{
+  z-index: 1000;
 }
