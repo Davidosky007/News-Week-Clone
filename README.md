@@ -23,7 +23,7 @@ See the source page below:
 - Bootstrap
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://davidosky007.github.io/News-Week-Clone/)
 
 ## Getting Started
 
