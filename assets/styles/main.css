@@ -13,16 +13,64 @@ body {
   line-height: 1.5;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container{
+  position: relative;
+}
+
 .main-nav-red {
   background-color: #F72210;
   padding: 20px;
   align-content: center;
 }
 
+.middlenav{
+  padding: 20px;
+}
+
+.search{
+  border: 0 none;
+}
+
+.search-icon{
+        background: url(../images/icon-search-glass.svg) center/contain no-repeat white;
+        width: 20px;
+        height: 26px;
+        clip: auto;
+        font-size: 0;
+        position: absolute;
+        top: 131px;
+        right: 133px;
+}
+
+.middlenav::before{
+    position: absolute;
+    top: 109px;
+    right: 15px;
+    content: "";
+    display: block;
+    width: 87px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+
+}
+
 .nav-red-right img{
 width: 27px;
 height: 16px;
+}
 
+.nav-red-right span{
+  color: #fff;
+}
+
+date{
+  color: #fff;
 }
 
 .nav-red-mid svg{
@@ -31,10 +79,66 @@ height: 70px;
 fill: #fff;
 }
 
+.btn-1{
+  text-transform: uppercase;
+  border-radius: 24px;
+  color: #fff;
+  background-color: #f72310;
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 15px;
+  border: 0 none;
+  padding-right: 15px;
+  font-weight: 600;
+}
+
 .btn-sub{
   color: #000;
   border-radius: 24px;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.decor{
+  position: relative;
+}
+
+.decor::before{
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 2px);
+}
+
+.decor::after{
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+}
+
+.c-vs{
+      position: relative;
+      z-index: 1;
+      width: 32px;
+      height: 32px;
+      background-color: #000;
+      color: #d6d6d6;
+      border-radius: 50%;
+      font: bold 14px/32px "Roboto Condensed",
+      sans-serif;
+      text-align: center;
+      margin: 6px auto;
 }
