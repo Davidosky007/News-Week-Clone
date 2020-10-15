@@ -20,9 +20,10 @@ img {
 
 /* HEADER SECTION */
 
-.container {
+.navcontainer {
   position: relative;
-  width: 100%;
+  width: 1250px;
+  margin: 0 auto;
 }
 
 .main-nav-red {
@@ -54,7 +55,7 @@ img {
 .middlenav::before {
   position: absolute;
   top: 109px;
-  right: 15px;
+  right: 0px;
   content: "";
   display: block;
   width: 87px;
@@ -149,7 +150,7 @@ date {
 
 /* FEATURED STORIES SECTION */
 .flexcontainer {
-  width: 1110px;
+  width: 1250px;
   margin: 0 auto;
   gap: 15px;
 }
@@ -244,9 +245,6 @@ date {
   padding: 8px 15px 9px;
 }
 
-
-
-
 .featured-img {
   width: 358px;
   height: 242px;
@@ -307,8 +305,42 @@ date {
   font-weight: 500;
 }
 
+.newsletter-signup{
+  width: 277px;
+  height: 147px;
+  border: 1px solid #e2e0e0;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #e2e0e0;
+}
+.n-icon{
+  background-color:  #f72310;
+  color: white;
+  width: 29px;
+  height: 28px;
+  border: 1px solid #f72310;
+}
+.title p{
+  padding-left: 15px;
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+}
+.btn{
+  background-color: #f72310;
+  color: white;
+  width: 240px;
+  height: 30px;
+  margin-top: 5px;
+  padding: 3px;
+}
+.email{
+  width: 240px;
+  height: 30px;
+  padding: 3px;
+}
 .cards img{
-  width: 300px;
+  width: 350px;
   height: 300px;
 }
 
