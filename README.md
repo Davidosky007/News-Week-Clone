@@ -65,7 +65,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Davidosky007/News-Week-Clone/issues).
 
 ## Show your support
 

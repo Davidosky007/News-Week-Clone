@@ -18,6 +18,8 @@ img {
   display: block;
 }
 
+/* HEADER SECTION */
+
 .container {
   position: relative;
   width: 100%;
@@ -104,6 +106,8 @@ date {
   padding-right: 15px;
 }
 
+/* Main Section */
+
 .decor {
   position: relative;
 }
@@ -155,6 +159,94 @@ date {
   padding-bottom: 10px;
   padding-top: 15px;
 }
+
+.bottom-text{
+  position: absolute;
+  font-size: 17px;
+  bottom: 124px;
+  left: 0;
+  color: red;
+  padding: 8px 15px 9px;
+}
+
+.bottom-text-1{
+  position: absolute;
+  font-size: 17px;
+  bottom: -8px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+
+.bottom-text-2{
+  position: absolute;
+  font-size: 17px;
+  bottom: 178px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+.bottom-text-3{
+  position: absolute;
+  font-size: 17px;
+  bottom: 154px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+.bottom-text-4{
+  position: absolute;
+  font-size: 17px;
+  bottom: 94px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+
+.bottom-text-5{
+  position: absolute;
+  font-size: 17px;
+  bottom: 94px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+.bottom-text-6{
+  position: absolute;
+  font-size: 17px;
+  bottom: 124px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+.bottom-text-7{
+  position: absolute;
+  font-size: 17px;
+  bottom: 91px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+.bottom-text-8{
+  position: absolute;
+  font-size: 17px;
+  bottom: 124px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+.bottom-text-9{
+  position: absolute;
+  font-size: 17px;
+  bottom: 100px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+
+
+
+
 .featured-img {
   width: 358px;
   height: 242px;
@@ -162,6 +254,10 @@ date {
 .description {
   font-size: 20px;
   font-weight: bolder;
+}
+
+.top-story{
+  width: 130%;
 }
 
 .top-story-header{
@@ -195,6 +291,12 @@ date {
   z-index: 1000;
 }
 
+.debate p{
+  font-size: 13px;
+  font-weight: 600;
+  color: #888;
+}
+
 .debate img{
   width: 65px;
   height: 65px;
@@ -203,4 +305,15 @@ date {
 .top-story-para-1{
   font-size: 15px;
   font-weight: 500;
+}
+
+.cards img{
+  width: 300px;
+  height: 300px;
+}
+
+.cards-content{
+  border: 1px solid rgba(166, 166, 166, 0.56);
+  text-align: center;
+  padding: 10px;
 }
