@@ -141,3 +141,24 @@ date {
   text-align: center;
   margin: 6px auto;
 }
+
+/* FEATURED STORIES SECTION */
+.flexcontainer {
+  width: 1110px;
+  margin: 0 auto;
+  gap: 5px;
+}
+.featured-header {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+.featured-img {
+  width: 358px;
+  height: 242px;
+}
+.description {
+  font-size: 20px;
+  font-weight: bolder;
+}
