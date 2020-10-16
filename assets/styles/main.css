@@ -495,7 +495,52 @@ date {
   width: 1250px;
   margin: 0 auto;
 }
+.usheader{
+  color: #f72210;
+  font-weight: 700;
+}
 .trump-image{
   width: 95px;
   height: 77px;
+}
+
+.worldcontainer{
+  width: 1250px;
+  margin: 0 auto;
+}
+.worldheader{
+  color: #f72210;
+  font-weight: 700;
+}
+.businesscontainer{
+  width: 1250px;
+  margin: 0 auto;
+}
+.businessheader{
+  color: #f72210;
+  font-weight: 700;
+}
+.techcontainer{
+  width: 1250px;
+  margin: 0 auto;
+}
+.techheader{
+  color: #f72210;
+  font-weight: 700;
+}
+.culturecontainer{
+  width: 1250px;
+  margin: 0 auto;
+}
+.cultureheader{
+  color: #f72210;
+  font-weight: 700;
+}
+.sportcontainer{
+  width: 1250px;
+  margin: 0 auto;
+}
+.sportheader{
+  color: #f72210;
+  font-weight: 700;
 }
