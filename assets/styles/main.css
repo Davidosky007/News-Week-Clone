@@ -476,3 +476,16 @@ date {
 .diss-3 a{
   line-height: 104px;
 }
+/* EDITOR'S PICK SECTION */
+.editorcontainer{
+  width: 1250px;
+  margin: 0 auto;
+}
+.bottom-text-ed1{
+  position: absolute;
+    font-size: 17px;
+    bottom: 217px;
+    left: 15px;
+    color: #f72210;
+    padding: 8px 15px 9px;
+}
