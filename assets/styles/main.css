@@ -97,17 +97,22 @@ date {
 }
 
 .btn-sub {
-  color: #000;
-  border-radius: 24px;
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
+      color: #000;
+      width: 131px;
+      height: 35px;
+      margin-top: 5px;
+      padding: 3px;
+      border-radius: 24px;
+      font: bold 13px/24px "Roboto Condensed",
+    sans-serif;
+    text-transform: uppercase;
 }
 
 /* Main Section */
+
+.main{
+  margin-bottom: 50px;
+}
 
 .decor {
   position: relative;
@@ -164,7 +169,7 @@ date {
 .bottom-text{
   position: absolute;
   font-size: 17px;
-  bottom: 124px;
+  bottom: 100px;
   left: 0;
   color: red;
   padding: 8px 15px 9px;
@@ -182,7 +187,7 @@ date {
 .bottom-text-2{
   position: absolute;
   font-size: 17px;
-  bottom: 178px;
+  bottom: 154px;
   left: 0;
   color: blue;
   padding: 8px 15px 9px;
@@ -215,7 +220,7 @@ date {
 .bottom-text-6{
   position: absolute;
   font-size: 17px;
-  bottom: 124px;
+  bottom: 70px;
   left: 0;
   color: blue;
   padding: 8px 15px 9px;
@@ -321,10 +326,11 @@ date {
   border: 1px solid #f72310;
 }
 .title p{
-  padding-left: 15px;
-  color: black;
-  font-weight: 600;
-  font-size: 12px;
+      font: bold 16px/16px "Roboto Condensed",
+      sans-serif;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      color: #000;
 }
 .btn{
   background-color: #f72310;
@@ -339,6 +345,8 @@ date {
   height: 30px;
   padding: 3px;
 }
+
+
 .cards img{
   width: 350px;
   height: 300px;
@@ -357,7 +365,8 @@ date {
 }
 .gridimg{
   width: 295px;
-  height: 292px;
+  height: 322px;
+  padding-top: 30px;
 }
 .gridimage{
   width: 293px;
@@ -365,5 +374,105 @@ date {
 }
 .grid-dissent{
   width: 291px;
-  height: 321px;
+  height: 318px;
+  padding-top: 27px;
+}
+
+.col-md-3{
+  margin-bottom: 50px;
+}
+
+.n-icon{
+      flex: none;
+      display: block;
+      width: 29px;
+      height: 28px;
+      background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+      margin-right: 10px;
+}
+
+.gridcontainer a {
+  color: #000;
+  text-decoration: none;
+  font: bold 19px/19px "Roboto Condensed",
+      sans-serif;
+}
+
+.gridcontainer a:hover{
+  text-decoration: underline #f72210;
+}
+
+.bottom-text-grid-img{
+      position: absolute;
+          display: block;
+          font: bold 16px/33px "Roboto Condensed",
+          sans-serif;
+      bottom: 43px;
+      left: 15px;
+    color: #f72210;
+      text-transform: uppercase;
+      padding: 0 10px;
+      background-color: rgba(255, 255, 255, .9);
+      z-index: 1;
+}
+
+.all-features{
+  display: block;
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 15px;
+}
+
+.all-features::after{
+      content: "";
+      display: inline-block;
+      margin-left: 5px;
+      margin-bottom: 1px;
+      width: 8px;
+      height: 8px;
+      transform: rotate(45deg);
+      border-top-width: 2px;
+      border-top-style: solid;
+      border-right-width: 2px;
+      border-right-style: solid
+}
+
+.category{
+      font: bold 16px/26px "Roboto Condensed",
+      sans-serif;
+      color: #f72210;
+      text-transform: uppercase;
+      margin-top: 10px;
+      margin-bottom: 10px;
+}
+
+.category span{
+  display: inline-block;
+}
+
+.red-cat{
+  padding: 0 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+}
+
+.bottom-text-grid-img2{
+      position: absolute;
+      display: block;
+      font: bold 16px/33px "Roboto Condensed",
+      sans-serif;
+      bottom: 111px;
+      left: 15px;
+      color: #f72210;
+      text-transform: uppercase;
+      padding: 0 10px;
+      background-color: rgba(255, 255, 255, .9);
+      z-index: 1;
+}
+
+.diss-3 a{
+  line-height: 104px;
 }
