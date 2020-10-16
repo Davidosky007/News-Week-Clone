@@ -349,3 +349,21 @@ date {
   text-align: center;
   padding: 10px;
 }
+
+/* THE FIRST GRID SECTION */
+.gridcontainer{
+  width: 1250px;
+  margin: 0 auto;
+}
+.gridimg{
+  width: 295px;
+  height: 292px;
+}
+.gridimage{
+  width: 293px;
+  height: 389px;
+}
+.grid-dissent{
+  width: 291px;
+  height: 321px;
+}
