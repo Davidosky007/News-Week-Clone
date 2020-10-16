@@ -489,3 +489,13 @@ date {
     color: #f72210;
     padding: 8px 15px 9px;
 }
+
+/* U.S. */
+.uscontainer{
+  width: 1250px;
+  margin: 0 auto;
+}
+.trump-image{
+  width: 95px;
+  height: 77px;
+}
