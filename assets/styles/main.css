@@ -634,3 +634,25 @@ background-color: #f4f5f6;
   border: 1px solid #888;
   padding: 5px;
 }
+.footer{
+  width: 1250px;
+  margin: 0 auto;
+}
+.footer-red svg {
+  width: 240px;
+  height: 40px;
+  fill: #f72210;
+}
+.copyright{
+  margin-top: 25px;
+  padding-left: 10px;
+  font-size: 12px;
+  color: grey;
+}
+.socialicons li{
+ font-size: 20px;
+}
+.editions{
+  font-weight: 700;
+  color: grey;
+}
