@@ -474,6 +474,10 @@ date {
   width: 1250px;
   margin: 0 auto;
 }
+.edt{
+  font-weight: 700;
+  font-size: 20px;
+}
 .bottom-text-ed1 {
   position: absolute;
   font-size: 17px;
@@ -497,6 +501,9 @@ date {
   color: black;
   font-weight: 700;
 }
+.uscontainer a:hover {
+  text-decoration: underline #f72210;
+}
 .trump-image {
   width: 95px;
   height: 77px;
@@ -515,10 +522,14 @@ date {
   color: black;
   font-weight: 700;
 }
+.worldcontainer a:hover {
+  text-decoration: underline #f72210;
+}
 .businesscontainer {
   width: 1250px;
   margin: 0 auto;
 }
+
 .businessheader {
   color: #f72210;
   font-weight: 700;
@@ -527,6 +538,9 @@ date {
   font-size: 18px;
   color: black;
   font-weight: 700;
+}
+.businesscontainer a:hover {
+  text-decoration: underline #f72210;
 }
 .techcontainer {
   width: 1250px;
@@ -541,6 +555,9 @@ date {
   color: black;
   font-weight: 700;
 }
+.techcontainer a:hover {
+  text-decoration: underline #f72210;
+}
 .culturecontainer {
   width: 1250px;
   margin: 0 auto;
@@ -554,6 +571,9 @@ date {
   color: black;
   font-weight: 700;
 }
+.culturecontainer a:hover {
+  text-decoration: underline #f72210;
+}
 .sportcontainer {
   width: 1250px;
   margin: 0 auto;
@@ -566,6 +586,9 @@ date {
   font-size: 18px;
   color: black;
   font-weight: 700;
+}
+.sportcontainer a:hover {
+  text-decoration: underline #f72210;
 }
 
 /* SUBSCRIBE SECTION */
