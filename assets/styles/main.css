@@ -544,3 +544,93 @@ date {
   color: #f72210;
   font-weight: 700;
 }
+
+/* SUBSCRIBE SECTION */
+
+.subcribe-sect{
+  width: 1250px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 40px;
+}
+
+.subcribe-sect .col-1{
+    padding: 24px 20px 20px;
+}
+
+.mag-cover{
+  position: relative;
+}
+
+.mag-cover-previous{
+  width: 170px;
+  height: 228px;
+}
+
+.mag-cover-previous img{
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.mag-cover img{
+width: 100%;
+height: auto;
+}
+
+.mag-cover-pres{
+  width: 170px;
+  height: 228px;
+  position: absolute;
+  top: 13px;
+  left: 80px;
+}
+
+.info{
+    padding-left: 260px;
+    padding-top: 44px;
+}
+
+.mag-main{
+background-color: #f4f5f6;
+}
+
+.sub-2{
+  background-color: #f72310;
+  width: 146px;
+  height: 47px;
+  color: #fff;
+  font: bold 18px/18px "Roboto Condensed",
+      sans-serif;
+  padding: 10px 10px 10px 12px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.sub-2::after{
+  content: ">";
+  font-size: 20px;
+  color: #fff;
+  padding-left: 5px;
+}
+.col-r{
+  height: 277px;
+}
+
+.col-r .news-letter-img{
+    width: 77%;
+    max-width: 191px;
+}
+
+.news-letter-img{
+    background: url(../images/starting5-homepage.png) center center / cover no-repeat;
+}
+
+.news-letter-info{
+  width: 36%;
+  line-height: 29px;
+}
+
+.news-main{
+  border: 1px solid #888;
+  padding: 5px;
+}
