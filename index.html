@@ -19,13 +19,15 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./assets/styles/main.css" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   </head>
   <body>
     <header class="navcontainer">
       <!--TOP NAVIGATION-->
-      <div class="main-nav-red d-flex d-flex justify-content-between">
+      <div class="main-nav-red sm-nav-red d-flex d-flex justify-content-between">
         <div class="nav-red-right">
           <img src="./assets/images/weather.png" alt="rain" />
           <span> &nbsp;&nbsp;27° Lagos, NG&nbsp;&nbsp;</span><br />
@@ -52,11 +54,14 @@
             </g>
           </svg>
         </div>
-        <div class="nav-red-right">
+        <div class="nav-red-left">
           <button type="button" class="btn-1">Login</button>
           <button type="button" class=" btn-warning btn-sub">
             Subcribe <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </button>
+                <button class="menu-mobile">
+                  <i class="fas fa-bars"></i>
+                </button>
         </div>
       </div>
       <!--MIDDLE NAVIGATION-->
@@ -104,7 +109,7 @@
         </ul>
       </div>
       <!--BOTTOM NAVIGATION-->
-      <div class="bottomnav d-block border-bottom">
+      <div class="bottomnav border-bottom">
         <ul class="textbar-bold d-flex list-unstyled justify-content-between">
           <li class="textbar-item pr-3">
             <a href="#" class="text-dark">TRENDING</a>
@@ -1468,10 +1473,5 @@
     </ul>
     </div>
   </footer>
-    <script
-      src="https://kit.fontawesome.com/013fb8bd39.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   </body>
 </html>
