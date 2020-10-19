@@ -27,7 +27,7 @@
   <body>
     <header class="navcontainer">
       <!--TOP NAVIGATION-->
-      <div class="main-nav-red sm-nav-red d-flex d-flex justify-content-between">
+      <div class="main-nav-red sm-nav-red d-flex d-flex justify-content-between position-relative">
         <div class="nav-red-right">
           <img src="./assets/images/weather.png" alt="rain" />
           <span> &nbsp;&nbsp;27° Lagos, NG&nbsp;&nbsp;</span><br />
@@ -54,15 +54,19 @@
             </g>
           </svg>
         </div>
+        <span class="mobile-user-icon"> 
+          <span class="iconify lp-nav" data-icon="vs:profile" data-inline="false">
+          </span>
+        </span>
         <div class="nav-red-left">
           <button type="button" class="btn-1">Login</button>
           <button type="button" class=" btn-warning btn-sub">
             Subcribe <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </button>
-                <button class="menu-mobile">
-                  <i class="fas fa-bars"></i>
-                </button>
         </div>
+        <span class="main-menu-bars">
+        <span class="iconify" data-icon="eva:menu-outline" data-inline="false"></span>
+        </span>
       </div>
       <!--MIDDLE NAVIGATION-->
       <div class="middlenav border-bottom d-lg-block">
@@ -139,7 +143,7 @@
       </div>
     </header>
     <!--MAIN SECTION-->
-    <section class="main px-2">
+    <section class="main px-2 container">
       <div class="flexcontainer d-flex position-relative">
         <!--FEATURED STORIES SECTION-->
         <article class="featured-stories position-relative">
