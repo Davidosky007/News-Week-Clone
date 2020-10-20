@@ -16,6 +16,7 @@ body {
 img {
   max-width: 100%;
   display: block;
+  object-fit: cover;
 }
 
 /* HEADER SECTION */
@@ -53,15 +54,15 @@ img {
 }
 
 .middlenav::before {
-  position: absolute;
-  top: 109px;
-  right: 0px;
-  content: "";
-  display: block;
-  width: 87px;
-  background-color: #f72210;
-  border-left: 12px solid white;
-  border-top: 13px solid #f72210;
+    position: absolute;
+    top: 115px;
+    right: 0px;
+    content: "";
+    display: block;
+    width: 87px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
 }
 
 .nav-red-right img {
@@ -105,10 +106,6 @@ date {
   border-radius: 24px;
   font: bold 13px/24px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
-}
-
-.menu-mobile{
-  display: none;
 }
 
 /* Main Section */
@@ -171,12 +168,12 @@ date {
 
 .bottom-text {
   position: absolute;
-  font-size: 17px;
-  bottom: 100px;
+  font-size: 21px;
+  bottom: 154px;
   left: 0;
   color: red;
   padding: 8px 15px 9px;
-}
+  }
 
 .bottom-text-1 {
   position: absolute;
@@ -188,34 +185,34 @@ date {
 }
 
 .bottom-text-2 {
-  position: absolute;
-  font-size: 17px;
-  bottom: 154px;
-  left: 0;
-  color: blue;
-  padding: 8px 15px 9px;
+      position: absolute;
+      font-size: 17px;
+      bottom: 208px;
+      left: 0;
+      color: blue;
+      padding: 8px 15px 9px;
 }
 .bottom-text-3 {
-  position: absolute;
-  font-size: 17px;
-  bottom: 154px;
-  left: 0;
-  color: blue;
-  padding: 8px 15px 9px;
+      position: absolute;
+      font-size: 17px;
+      bottom: 208px;
+      left: 0;
+      color: blue;
+      padding: 8px 15px 9px;
 }
 .bottom-text-4 {
-  position: absolute;
-  font-size: 17px;
-  bottom: 94px;
-  left: 0;
-  color: blue;
-  padding: 8px 15px 9px;
+    position: absolute;
+    font-size: 17px;
+    bottom: 148px;
+    left: 0;
+    color: blue;
+    padding: 8px 15px 9px;
 }
 
 .bottom-text-5 {
   position: absolute;
   font-size: 17px;
-  bottom: 94px;
+  bottom: 118px;
   left: 0;
   color: blue;
   padding: 8px 15px 9px;
@@ -223,7 +220,7 @@ date {
 .bottom-text-6 {
   position: absolute;
   font-size: 17px;
-  bottom: 70px;
+  bottom: 123px;
   left: 0;
   color: blue;
   padding: 8px 15px 9px;
@@ -231,7 +228,7 @@ date {
 .bottom-text-7 {
   position: absolute;
   font-size: 17px;
-  bottom: 91px;
+  bottom: 115px;
   left: 0;
   color: blue;
   padding: 8px 15px 9px;
@@ -239,7 +236,7 @@ date {
 .bottom-text-8 {
   position: absolute;
   font-size: 17px;
-  bottom: 124px;
+  bottom: 148px;
   left: 0;
   color: blue;
   padding: 8px 15px 9px;
@@ -247,12 +244,11 @@ date {
 .bottom-text-9 {
   position: absolute;
   font-size: 17px;
-  bottom: 100px;
+  bottom: 124px;
   left: 0;
   color: blue;
   padding: 8px 15px 9px;
 }
-
 .featured-img {
   width: 358px;
   height: 242px;
@@ -726,6 +722,12 @@ date {
   display: none
 }
 
+p {
+  font-size: 48px;
+  display: block;
+  padding: 20px;
+}
+
 .nav-red-left{
   width: 40%;
 }
@@ -751,23 +753,58 @@ date {
   align-content: center;
   width: 80rem;
 }
-/* .mobile-icon{
-  font-size: 0;
-  background: url(https://g.newsweek.com/www/images/user-w.svg) center / contain no-repeat;
-  width: 30px;
-  height: 30px;
-  padding-left: 0;
-  opacity: .75
-} */
 
-.middlenav {
-  display: none
+.more-stories img {
+      width: 2362px;
+      height: 387px;
+      margin-right: 20px;
+}
+
+.more-stories a {
+  font-size: 42px;
+  font-weight: 700;
+  display: block;
+}
+
+.the-debate{
+  display: list-item;
+}
+
+.debate img {
+  width: 294px;
+  height: 294px;
+  padding: 20px;
+}
+
+.top-story-para-1 {
+  font-size: 39px;
+  font-weight: 600;
+}
+
+.debate p {
+  font-size: 38px;
+  font-weight: 600;
+  color: #888;
+}
+
+.c-vs {
+  position: relative;
+  z-index: 1;
+  width: 92px;
+  height: 47px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 30px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 6px auto;
 }
 
 .bottomnav {
 display: none
-  };
+  }
 
+  
 .nav-red-mid svg {
   width: 410px;
   height: 70px;
@@ -775,9 +812,141 @@ display: none
   
 }
 
-.menu-mobile{
+.description {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.featured-header{
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 16px;
+  padding: 50px;
+}
+
+.bottom-text{
+    position: absolute;
+    font-size: 44px;
+    bottom: 261px;
+    left: 0;
+    color: red;
+    padding: 8px 15px 9px;
+    }
+
+  .bottom-text-1{
+      position: absolute;
+      font-size: 55px;
+      bottom: -7px;
+      left: 0;
+      color: blue;
+      padding: 8px 15px 9px;
+  } 
+
+.bottom-text-2{
+      position: absolute;
+      font-size: 60px;
+      bottom: 396px;
+      left: 0;
+      color: blue;
+      padding: 8px 15px 9px;
+}
+
+.bottom-text-3 {
+  position: absolute;
+  font-size: 60px;
+  bottom: 336px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+
+.bottom-text-4 {
+  position: absolute;
+  font-size: 60px;
+  bottom: 245px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+
+.bottom-text-5 {
+  position: absolute;
+  font-size: 60px;
+  bottom: 187px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+
+.bottom-text-6 {
+  position: absolute;
+  font-size: 60px;
+  bottom: 187px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+
+.bottom-text-7 {
+  position: absolute;
+  font-size: 60px;
+  bottom: 192px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+
+.bottom-text-8 {
+  position: absolute;
+  font-size: 60px;
+  bottom: 261px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+
+.bottom-text-9 {
+  position: absolute;
+  font-size: 60px;
+  bottom: 262px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+
+.top-story-header {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 16px;
+  padding: 50px;
+}
+
+.top-story-para {
+  font-size: 63px;
+  font-weight: 700;
+}
+
+.culture img{
+  width: 100%;
+}
+
+.menu-mobile {
   width: 50px;
   height: 50px;
+  background-color: #f72310;
+}
+
+.main-grid img {
+  width: 100%;
+  height: 618px;
+}
+
+.menu-mobile svg{
+  font-size: 100px;
+  color: #888;
+  position: absolute;
+  top: 0;
+  right: 30px;
 }
 .main{
   display: grid;
@@ -850,22 +1019,88 @@ display: none
       width: 100%;
       height: 50px;
   }
+
+  .top-story-header {
+    color: rgba(3, 3, 3, 0.4);
+    font: bold 30px/16px "Roboto Condensed", sans-serif;
+    padding-bottom: 10px;
+    padding-top: 15px;
+  }
+
   .debate{
       min-width: 100vw;
   }
-  .cards img{
-      width: 70%;
-      height: 300px;
-      margin-right: 350px;
-      margin-left: 350px;
+  
+  .debate p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #888;
   }
-  .cards-content{
-      margin-left: 250px;
-      margin-right: 250px;
+
+  .debate img {
+    width: 128px;
+    height: 128px;
+  }
+
+  .top-story-para-1 {
+    padding-left: 20px;
+    font-size: 33px;
+    font-weight: 500;
+  }
+
+  .cards img {
+    width: 55%;
+    height: 427px;
+    margin-right: 393px;
+    margin-left: 256px;
+  }
+  .cards-content {
+    width: 690px;
+    margin-left: 254px;
+    margin-right: 192px;
   }
   .newsletter-signup{
-      margin-right: 350px;
-      margin-left: 350px;
+      margin-right: 439px;
+      margin-left: 317px;
+      width: 680px;
+      padding: 20px;
+  }
+
+  .title p {
+    font: bold 18px/16px "Roboto Condensed", sans-serif;
+    margin-bottom: 21px;
+    text-transform: uppercase;
+    color: #000;
+  }
+
+  .email {
+        width: 589px;
+        height: 37px;
+        padding: 3px;
+        margin: 0 auto;
+  }
+
+  .btn {
+    background-color: #f72310;
+    color: white;
+    width: 240px;
+    height: 32px;
+    margin-top: 10px;
+    padding: 3px;
+  }
+
+  .col-r {
+    height: 277px;
+    width: 1269px;
+  }
+
+  .col-r .news-letter-img {
+    width: 581px;
+    max-width: 626px;
+  }
+
+  .news-letter-info{
+    font-size: 20px;
   }
   .editorcontainer img{
       width: 100%;

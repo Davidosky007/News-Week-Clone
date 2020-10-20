@@ -49,18 +49,18 @@
             </g>
           </svg>
         </div>
-        <div class="nav-red-left">
+        <div class="nav-red-left position-relative">
           <button type="button" class="btn-1">Login</button>
           <button type="button" class=" btn-warning btn-sub">
             Subcribe <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </button>
-                <button class="menu-mobile">
-                  <i class="fas fa-bars"></i>
-                </button>
+                <span class="menu-mobile d-sm-none">
+                  <span class="iconify" data-icon="eva:menu-outline" data-inline="false"></span>
+                </span>
         </div>
       </div>
       <!--MIDDLE NAVIGATION-->
-      <div class="middlenav border-bottom d-lg-block">
+      <div class="middlenav d-none border-bottom d-lg-block">
         <ul
           class="textbar-bold roboto d-flex list-unstyled justify-content-around"
         >
@@ -104,8 +104,8 @@
         </ul>
       </div>
       <!--BOTTOM NAVIGATION-->
-      <div class="bottomnav border-bottom">
-        <ul class="textbar-bold d-flex list-unstyled justify-content-between">
+      <div class="bottomnav  border-bottom">
+        <ul class="textbar-bold d-flex d-md-none list-unstyled justify-content-between">
           <li class="textbar-item pr-3">
             <a href="#" class="text-dark">TRENDING</a>
           </li>
@@ -134,11 +134,11 @@
       </div>
     </header>
     <!--MAIN SECTION-->
-    <section class="main px-2">
+    <section class="main px-2 container-fluid">
       <div class="grid position-relative">
         <!--FEATURED STORIES SECTION-->
         <div class="row">
-        <div class="featured-stories col-lg-4 col-md-6 col-sm-12 position-relative">
+        <div class="featured-stories col-12 col-md-6 col-sm-12 col-lg-3 position-relative">
           <a href="#" class="featured-header d-block">FEATURED STORIES</a>
           <figure class="position-relative">
             <h2 class="bottom-text bg-light">
@@ -363,7 +363,7 @@
           </figure>
         </div>
         <!--TOP STORY SECTION-->
-        <div class="top-story col-lg-4 col-md-6 col-sm-12">
+        <div class="top-story col-12 col-md-6 col-lg-6 col-sm-12">
           <article class="story">
             <a href="#" class="d-block top-story-header">TOP STORY</a>
             <figure>
@@ -386,7 +386,7 @@
           <article class="my-turn main-grid">
             <a href="#" class="d-block top-story-header">MY TURN</a>
             <div class="row">
-            <figure class="col-4">
+            <figure class="col-12 col-sm-4">
               <img
                 src="assets/images/love-romance-italy-romeo-juliet-pandemic.jpg" class="romeo"
                 alt="love" class="topstory-image"
@@ -398,7 +398,7 @@
                 </p>
               </figcaption>
             </figure>
-            <figure class="col-4">
+            <figure class="col-12 col-sm-4">
               <img
                 src="assets/images/world-war-ii-black-women-african-americans.jpg"
                 alt="woman" class="topstory-image"
@@ -407,7 +407,7 @@
                 <p>'I'm 99, And the Oldest Park Ranger in America'</p>
               </figcaption>
             </figure>
-            <figure class="col-4">
+            <figure class="col-12 col-sm-4">
               <img
                 src="assets/images/divorce-love-marriage-relationships-australia.jpg"
                 alt="divorce" class="topstory-image"
@@ -425,7 +425,7 @@
           <article class="culture">
             <a href="#" class="d-block top-story-header">CULTURE & TRAVEL</a>
             <div class="row">
-            <figure class="col-4">
+            <figure class="col-12 col-sm-4">
               <img src="assets/images/singapore-airlines.jpg" alt="singapore" />
               <figcaption>
                 <p>
@@ -434,7 +434,7 @@
                 </p>
               </figcaption>
             </figure>
-            <figure class="col-4">
+            <figure class="col-12 col-sm-4">
               <img
                 src="assets/images/100-best-rock-albums-all-time-according-critics.png"
                 alt="albums"
@@ -443,7 +443,7 @@
                 <p>100 Best Rock Albums of All Time, According to Critics</p>
               </figcaption>
             </figure>
-            <figure class="col-4">
+            <figure class="col-12 col-sm-4">
               <img
                 src="assets/images/cul-map-wes-anderson-white-cyclon-banner.jpg"
                 alt="map"
@@ -539,10 +539,10 @@
             <figure class="d-flex align-items-center">
               <img src="assets/images/donald-trump.jpg" class="mr-3" alt="donald-trump" />
               <figcaption>
-                <a href="#" class="text-dark top-story-para"></a>
-                  >Donald Trump Cancels Ads in Key States As Joe Biden Dominates
-                  Airwaves</a
-                ><br />
+                <a href="#" class="text-dark top-story-para">
+                  Donald Trump Cancels Ads in Key States As Joe Biden Dominates
+                  Airwaves</a>
+                  <br />
                 <p class="d-block">
                   As election day looms, the U.S. president has pulled a planned
                   $17 million worth of ads in Ohio, Iowa and New Hampshire.
@@ -553,7 +553,7 @@
               <img src="assets/images/early-voting-georgia.jpg" class="mr-3" alt="early" />
               <figcaption>
                 <a href="#" class="text-dark top-story-para">
-                  >Early Voting Begins in Georgia, Videos Show Hundreds Standing
+                  Early Voting Begins in Georgia, Videos Show Hundreds Standing
                   in Long Lines</a
                 ><br />
                 <p class="d-block">
@@ -647,11 +647,11 @@
           </article>
         </div>
         <!--THE DEBATE SECTION-->
-        <div class="debate col-lg-4 col-md-6 col-sm-12">
+        <div class="debate col-12 col-md-12 col-lg-3 col-sm-12">
           <article class="the-debate">
             <a href="#" class="d-block top-story-header">THE DEBATE</a>
             <hr>
-            <figure class="align-items-center d-md-flex">
+            <figure class="align-items-center d-flex">
               <img
                 src="assets/images/claire-finkelstein-richard-w-painter-2.png" class="mr-2"
                 alt="claire"
@@ -687,7 +687,7 @@
           <div class="opinion">
             <a href="#" class="d-block top-story-header">OPINION</a>
             <hr>
-            <figure  class="align-items-center d-md-flex hidden-md-down">
+            <figure  class="align-items-center d-flex hidden-md-down">
               <img src="assets/images/robert-reich.png" class="mr-2" alt="robert-reich" />
               <figcaption>
                 <a href="#" class="text-dark top-story-para-1">
@@ -697,7 +697,7 @@
                 <hr>
               </figcaption>
             </figure>
-            <figure class="align-items-center d-md-flex">
+            <figure class="align-items-center d-flex">
               <img
                 src="assets/images/john-yoo-james-phillips.png" class="mr-2"
                 alt="kim"
@@ -711,7 +711,7 @@
                 <hr>
               </figcaption>
             </figure>
-            <figure class="align-items-center d-md-flex">
+            <figure class="align-items-center d-flex">
               <img src="assets/images/mark-davis.png" class="mr-2" alt="mark-davis" />
               <figcaption>
                 <a href="#" class="text-dark top-story-para-1"
@@ -721,7 +721,7 @@
                 <hr>
               </figcaption>
             </figure>
-            <figure class="align-items-center d-md-flex" >
+            <figure class="align-items-center d-flex" >
               <img
                 src="assets/images/abraham-cooper-yitzchok-adlerstein.png" class="mr-2"
                 alt="abraham-cooper-yitzchok-adlerstein"
@@ -735,7 +735,7 @@
                 <hr>
               </figcaption>
             </figure>
-            <figure class="align-items-center d-md-flex" >
+            <figure class="align-items-center d-flex" >
               <img
                 src="assets/images/kelly-shackelford.png" class="mr-2"
                 alt="kelly-shackelford"
@@ -748,7 +748,7 @@
                 <hr>
               </figcaption>
             </figure>
-            <figure class="align-items-center d-md-flex">
+            <figure class="align-items-center d-flex">
               <img src="assets/images/john-yoo-james-phillips.png"  class="mr-2" alt="john" />
               <figcaption>
                 <a href="#" class="text-dark top-story-para-1"
@@ -759,7 +759,7 @@
                 <hr>
               </figcaption>
             </figure>
-            <figure class="align-items-center d-md-flex">
+            <figure class="align-items-center d-flex">
               <img src="assets/images/hank-gilman.png" class="mr-2" alt="hank-gilman" />
               <figcaption>
                 <a href="#" class="text-dark top-story-para-1"
@@ -769,7 +769,7 @@
                 <hr>
               </figcaption>
             </figure>
-            <figure class="align-items-center d-md-flex">
+            <figure class="align-items-center d-flex">
               <img src="assets/images/roff-new.png" class="mr-2" alt="peter" />
               <figcaption>
                 <a href="#" class="text-dark top-story-para-1">What to Do About Columbus Day</a><br />
@@ -1362,10 +1362,10 @@
       <hr>
       <div class="d-flex justify-content-between">
         <p class="cultureheader">SUBSCRIBE</p>
-      <p class="cultureheader text-center">NEWS LETTER</p>
+      <p class="cultureheader d-none d-lg-block d-xl-none text-center">NEWS LETTER</p>
       </div>
     <div class="row">
-      <div class="col-lg-7 d-flex mag-main">
+      <div class="col-lg-7 col-12 d-flex mag-main">
         <div class="col-1 f-1 mag-rap">
           <div class="mag-cover">
             <div class="mag-cover-previous">
@@ -1383,8 +1383,9 @@
         <button type="button" class="btn btn-danger sub-2"> SUBSCRIBE</button>
         </div>
       </div>
-      <div class="col-5 news-main">
-      <div class="d-flex f-1 col-r">
+      <div class="col-12 col-sm-5">
+        <span><p class="cultureheader d-lg-none d-xl-block m-3">NEWS LETTER</p></span>
+      <div class="d-flex f-1 col-r news-main">
       <div class="news-letter-img"></div>
       <div class="news-lett-info ml-3">
         <h3>The Starting 5</h3>
