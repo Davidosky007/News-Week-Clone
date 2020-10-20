@@ -723,9 +723,9 @@ date {
 }
 
 p {
-  font-size: 48px;
-  display: block;
-  padding: 20px;
+    font-size: 40px;
+    display: block;
+    padding: 10px;
 }
 
 .nav-red-left{
@@ -817,11 +817,11 @@ display: none
   font-weight: bolder;
 }
 
-.featured-header{
-  font-size: 50px;
-  font-weight: 800;
-  line-height: 16px;
-  padding: 50px;
+.featured-header {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 50px/16px "Roboto Condensed", sans-serif;
+  padding-bottom: 26px;
+  padding-top: 40px;
 }
 
 .bottom-text{
@@ -936,6 +936,25 @@ display: none
   background-color: #f72310;
 }
 
+.socialicons li {
+  font-size: 70px;
+}
+
+.editions {
+  font-size: 36px;
+  font-weight: 700;
+  color: grey;
+}
+
+.footer-links1 li {
+  font-size: 40px;
+}
+
+.footer-links li {
+  font-size: 36px;
+  display: contents;
+}
+
 .main-grid img {
   width: 100%;
   height: 618px;
@@ -985,6 +1004,54 @@ display: none
       width: 50%;
       height: 400px;
   }
+
+  .uscontainer a {
+    font-size: 37px;
+    color: black;
+    font-weight: 700;
+    padding: 43px;
+  }
+
+  .worldcontainer a {
+    padding: 20px;
+    font-size: 37px;
+    color: black;
+    font-weight: 700;
+  }
+
+  .businesscontainer a {
+    font-size: 37px;
+    color: black;
+    font-weight: 700;
+    padding: 20px;
+  }
+
+  .techcontainer a {
+    font-size: 37px;
+    color: black;
+    font-weight: 700;
+    padding: 20px;
+  }
+
+  .culturecontainer a {
+    font-size: 37px;
+    color: black;
+    font-weight: 700;
+    padding: 20px;
+  }
+
+  .sportcontainer a {
+    padding: 20px;
+    font-size: 37px;
+    color: black;
+    font-weight: 700;
+  }
+
+  .grids:nth-child(2)
+  {
+        margin-top: 39px;
+        
+  }
   .bottom-text-ed1 {
       position: absolute;
       font-size: 17px;
@@ -993,6 +1060,12 @@ display: none
       color: #f72210;
       padding: 8px 15px 9px;
     }
+
+    .gridcontainer a {
+      color: #000;
+      text-decoration: none;
+      font: bold 40px/19px "Roboto Condensed", sans-serif;
+    }
     .menu{
       max-width: 100vw;
   }
@@ -1000,13 +1073,25 @@ display: none
 }
 
 /* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
+@media (max-width: 767px),
+(min-width:991.98px) {
   .featured-stories{
       min-width: 40vw;
   }
   .featured-stories img{
       width: 100%;
       height: 500px;
+  }
+
+  .nav-red-right{
+    display: none;
+  }
+
+  .featured-header {
+    color: rgba(3, 3, 3, 0.4);
+    font: bold 50px/16px "Roboto Condensed", sans-serif;
+    padding-bottom: 20px;
+    padding-top: 25px;
   }
   .top-story{
       min-width: 40vw;
@@ -1022,9 +1107,9 @@ display: none
 
   .top-story-header {
     color: rgba(3, 3, 3, 0.4);
-    font: bold 30px/16px "Roboto Condensed", sans-serif;
-    padding-bottom: 10px;
-    padding-top: 15px;
+    font: bold 50px/16px "Roboto Condensed", sans-serif;
+    padding-bottom: 20px;
+    padding-top: 25px;
   }
 
   .debate{
@@ -1117,7 +1202,46 @@ display: none
   .menu{
       max-width: 100vw;
   }
- 
+
+  .footer-red svg {
+    width: 370px;
+    height: 71px;
+    fill: #f72210;
+    padding: 8px;
+  }
+
+  .copyright {
+    margin-top: 25px;
+    padding-left: 0px;
+    font-size: 15px;
+    color: grey;
+  }
+
+.socialicons li {
+  font-size: 52px;
+}
+
+.footer {
+  padding: 20px;
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.editions {
+  font-size: 25px;
+  font-weight: 700;
+  color: grey;
+}
+
+.footer-links li {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.footer-links1 li {
+  font-size: 27px;
+}
+
 }  
  /* Large devices (desktops, less than 1200px) */
   @media (max-width: 1199.98px) {
