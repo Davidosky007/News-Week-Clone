@@ -1060,6 +1060,7 @@ display: none
       color: #f72210;
       padding: 8px 15px 9px;
     }
+    
 
     .gridcontainer a {
       color: #000;
@@ -1149,6 +1150,7 @@ display: none
       width: 680px;
       padding: 20px;
   }
+  
 
   .title p {
     font: bold 18px/16px "Roboto Condensed", sans-serif;
@@ -1192,12 +1194,92 @@ display: none
   }
   .bottom-text-ed1 {
       position: absolute;
-      font-size: 17px;
-      bottom: 120px;
+      font-size: 36px;
+      bottom: 116px;
       left: 15px;
       color: #f72210;
       padding: 8px 15px 9px;
     }
+    .bottom-text{
+      position: absolute;
+      font-size: 45px;
+      bottom: 103px;
+      left: 0;
+      color: #f72210;
+      padding: 8px 15px 9px;
+      }
+      .bottom-text-1 {
+        position: absolute;
+        font-size: 45px;
+        bottom: -8px;
+        left: 0;
+        color: #f72210;
+        padding: 8px 15px 9px;
+    }
+      .bottom-text-2{
+        position: absolute;
+        font-size: 45px;
+        bottom: 129px;
+        left: 0;
+        color: #f72210;
+        padding: 8px 15px 9px;
+  }
+  .bottom-text-3 {
+    position: absolute;
+    font-size: 45px;
+    bottom: 130px;
+    left: 0;
+    color: #f72210;
+    padding: 8px 15px 9px;
+}
+  .bottom-text-4 {
+  position: absolute;
+  font-size: 45px;
+  bottom: 71px;
+  left: 0;
+  color: b#f72210;
+  padding: 8px 15px 9px;
+}
+.bottom-text-5 {
+  position: absolute;
+  font-size: 45px;
+  bottom: 71px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+.bottom-text-6 {
+  position: absolute;
+  font-size: 45px;
+  bottom: 70px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+.bottom-text-7 {
+  position: absolute;
+  font-size: 45px;
+  bottom: 113px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+.bottom-text-8 {
+  position: absolute;
+  font-size: 45px;
+  bottom: 99px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
+.bottom-text-9 {
+  position: absolute;
+  font-size: 45px;
+  bottom: 98px;
+  left: 0;
+  color: blue;
+  padding: 8px 15px 9px;
+}
   .menu{
       max-width: 100vw;
   }
