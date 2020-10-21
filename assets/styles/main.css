@@ -327,14 +327,6 @@ img {
   background-color: #e2e0e0;
 }
 
-.n-icon {
-  background-color: #f72310;
-  color: white;
-  width: 29px;
-  height: 28px;
-  border: 1px solid #f72310;
-}
-
 .title p {
   font: bold 16px/16px "Roboto Condensed", sans-serif;
   margin-bottom: 15px;
@@ -412,6 +404,46 @@ img {
   font: bold 19px/19px "Roboto Condensed", sans-serif;
 }
 
+.diss-3 a {
+  line-height: 104px;
+}
+
+.uscontainer a {
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+}
+
+.worldcontainer a {
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+}
+
+.businesscontainer a {
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+}
+
+.techcontainer a {
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+}
+
+.culturecontainer a {
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+}
+
+.sportcontainer a {
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+}
+
 .gridcontainer a:hover {
   text-decoration: underline #f72210;
 }
@@ -484,10 +516,6 @@ img {
   z-index: 1;
 }
 
-.diss-3 a {
-  line-height: 104px;
-}
-
 /* EDITOR'S PICK SECTION */
 .editorcontainer {
   width: 1250px;
@@ -519,12 +547,6 @@ img {
   font-weight: 700;
 }
 
-.uscontainer a {
-  font-size: 18px;
-  color: black;
-  font-weight: 700;
-}
-
 .uscontainer a:hover {
   text-decoration: underline #f72210;
 }
@@ -544,12 +566,6 @@ img {
   font-weight: 700;
 }
 
-.worldcontainer a {
-  font-size: 18px;
-  color: black;
-  font-weight: 700;
-}
-
 .worldcontainer a:hover {
   text-decoration: underline #f72210;
 }
@@ -561,12 +577,6 @@ img {
 
 .businessheader {
   color: #f72210;
-  font-weight: 700;
-}
-
-.businesscontainer a {
-  font-size: 18px;
-  color: black;
   font-weight: 700;
 }
 
@@ -584,12 +594,6 @@ img {
   font-weight: 700;
 }
 
-.techcontainer a {
-  font-size: 18px;
-  color: black;
-  font-weight: 700;
-}
-
 .techcontainer a:hover {
   text-decoration: underline #f72210;
 }
@@ -604,12 +608,6 @@ img {
   font-weight: 700;
 }
 
-.culturecontainer a {
-  font-size: 18px;
-  color: black;
-  font-weight: 700;
-}
-
 .culturecontainer a:hover {
   text-decoration: underline #f72210;
 }
@@ -621,12 +619,6 @@ img {
 
 .sportheader {
   color: #f72210;
-  font-weight: 700;
-}
-
-.sportcontainer a {
-  font-size: 18px;
-  color: black;
   font-weight: 700;
 }
 
@@ -705,15 +697,13 @@ img {
   height: 277px;
 }
 
+.news-letter-img {
+  background: url(../images/starting5-homepage.png) center center / cover no-repeat;
+}
+
 .col-r .news-letter-img {
   width: 77%;
   max-width: 191px;
-}
-
-.news-letter-img {
-  background:
-    url(../images/starting5-homepage.png) center center / cover
-    no-repeat;
 }
 
 .news-letter-info {
@@ -1076,7 +1066,7 @@ img {
     font-size: 45px;
     bottom: 112px;
     left: 0;
-    color: b#f72210;
+    color: #f72210;
     padding: 8px 15px 9px;
   }
 
@@ -1273,7 +1263,6 @@ img {
   }
 
   .n-icon {
-    background-size: 229px;
     flex: none;
     display: block;
     width: 63px;
