@@ -42,7 +42,8 @@ img {
 }
 
 .search-icon {
-  background: url(../images/icon-search-glass.svg) center/contain no-repeat
+  background:
+    url(../images/icon-search-glass.svg) center/contain no-repeat
     white;
   width: 20px;
   height: 26px;
@@ -56,7 +57,7 @@ img {
 .middlenav::before {
   position: absolute;
   top: 115px;
-  right: 0px;
+  right: 0;
   content: "";
   display: block;
   width: 87px;
@@ -74,7 +75,7 @@ img {
   color: #fff;
 }
 
-date {
+.nav-red-right p {
   color: #fff;
 }
 
@@ -159,6 +160,7 @@ date {
   margin: 0 auto;
   gap: 15px;
 }
+
 .featured-header {
   color: rgba(3, 3, 3, 0.4);
   font: bold 16px/16px "Roboto Condensed", sans-serif;
@@ -192,6 +194,7 @@ date {
   color: blue;
   padding: 8px 15px 9px;
 }
+
 .bottom-text-3 {
   position: absolute;
   font-size: 17px;
@@ -200,6 +203,7 @@ date {
   color: blue;
   padding: 8px 15px 9px;
 }
+
 .bottom-text-4 {
   position: absolute;
   font-size: 17px;
@@ -217,6 +221,7 @@ date {
   color: blue;
   padding: 8px 15px 9px;
 }
+
 .bottom-text-6 {
   position: absolute;
   font-size: 17px;
@@ -225,6 +230,7 @@ date {
   color: blue;
   padding: 8px 15px 9px;
 }
+
 .bottom-text-7 {
   position: absolute;
   font-size: 17px;
@@ -233,6 +239,7 @@ date {
   color: blue;
   padding: 8px 15px 9px;
 }
+
 .bottom-text-8 {
   position: absolute;
   font-size: 17px;
@@ -241,6 +248,7 @@ date {
   color: blue;
   padding: 8px 15px 9px;
 }
+
 .bottom-text-9 {
   position: absolute;
   font-size: 17px;
@@ -249,10 +257,12 @@ date {
   color: blue;
   padding: 8px 15px 9px;
 }
+
 .featured-img {
   width: 358px;
   height: 242px;
 }
+
 .description {
   font-size: 20px;
   font-weight: bolder;
@@ -316,6 +326,7 @@ date {
   padding: 15px;
   background-color: #e2e0e0;
 }
+
 .n-icon {
   background-color: #f72310;
   color: white;
@@ -323,12 +334,14 @@ date {
   height: 28px;
   border: 1px solid #f72310;
 }
+
 .title p {
   font: bold 16px/16px "Roboto Condensed", sans-serif;
   margin-bottom: 15px;
   text-transform: uppercase;
   color: #000;
 }
+
 .btn {
   background-color: #f72310;
   color: white;
@@ -337,6 +350,7 @@ date {
   margin-top: 5px;
   padding: 3px;
 }
+
 .email {
   width: 240px;
   height: 30px;
@@ -359,15 +373,18 @@ date {
   width: 1250px;
   margin: 0 auto;
 }
+
 .gridimg {
   width: 295px;
   height: 322px;
   padding-top: 30px;
 }
+
 .gridimage {
   width: 293px;
   height: 389px;
 }
+
 .grid-dissent {
   width: 291px;
   height: 318px;
@@ -383,7 +400,8 @@ date {
   display: block;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+  background:
+    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
     no-repeat #f72210;
   margin-right: 10px;
 }
@@ -469,11 +487,13 @@ date {
 .diss-3 a {
   line-height: 104px;
 }
+
 /* EDITOR'S PICK SECTION */
 .editorcontainer {
   width: 1250px;
   margin: 0 auto;
 }
+
 .edt {
   font-weight: 700;
   font-size: 20px;
@@ -493,18 +513,22 @@ date {
   width: 1250px;
   margin: 0 auto;
 }
+
 .usheader {
   color: #f72210;
   font-weight: 700;
 }
+
 .uscontainer a {
   font-size: 18px;
   color: black;
   font-weight: 700;
 }
+
 .uscontainer a:hover {
   text-decoration: underline #f72210;
 }
+
 .trump-image {
   width: 95px;
   height: 77px;
@@ -514,18 +538,22 @@ date {
   width: 1250px;
   margin: 0 auto;
 }
+
 .worldheader {
   color: #f72210;
   font-weight: 700;
 }
+
 .worldcontainer a {
   font-size: 18px;
   color: black;
   font-weight: 700;
 }
+
 .worldcontainer a:hover {
   text-decoration: underline #f72210;
 }
+
 .businesscontainer {
   width: 1250px;
   margin: 0 auto;
@@ -535,59 +563,73 @@ date {
   color: #f72210;
   font-weight: 700;
 }
+
 .businesscontainer a {
   font-size: 18px;
   color: black;
   font-weight: 700;
 }
+
 .businesscontainer a:hover {
   text-decoration: underline #f72210;
 }
+
 .techcontainer {
   width: 1250px;
   margin: 0 auto;
 }
+
 .techheader {
   color: #f72210;
   font-weight: 700;
 }
+
 .techcontainer a {
   font-size: 18px;
   color: black;
   font-weight: 700;
 }
+
 .techcontainer a:hover {
   text-decoration: underline #f72210;
 }
+
 .culturecontainer {
   width: 1250px;
   margin: 0 auto;
 }
+
 .cultureheader {
   color: #f72210;
   font-weight: 700;
 }
+
 .culturecontainer a {
   font-size: 18px;
   color: black;
   font-weight: 700;
 }
+
 .culturecontainer a:hover {
   text-decoration: underline #f72210;
 }
+
 .sportcontainer {
   width: 1250px;
   margin: 0 auto;
 }
+
 .sportheader {
   color: #f72210;
   font-weight: 700;
 }
+
 .sportcontainer a {
   font-size: 18px;
   color: black;
   font-weight: 700;
 }
+
 .sportcontainer a:hover {
   text-decoration: underline #f72210;
 }
@@ -658,6 +700,7 @@ date {
   color: #fff;
   padding-left: 5px;
 }
+
 .col-r {
   height: 277px;
 }
@@ -668,7 +711,8 @@ date {
 }
 
 .news-letter-img {
-  background: url(../images/starting5-homepage.png) center center / cover
+  background:
+    url(../images/starting5-homepage.png) center center / cover
     no-repeat;
 }
 
@@ -688,11 +732,13 @@ date {
   width: 1250px;
   margin: 0 auto;
 }
+
 .footer-red svg {
   width: 240px;
   height: 40px;
   fill: #f72210;
 }
+
 .copyright {
   margin-top: 25px;
   padding-left: 10px;
@@ -703,13 +749,16 @@ date {
 .socialicons li {
   font-size: 20px;
 }
+
 .editions {
   font-weight: 700;
   color: grey;
 }
+
 .footer-links1 li {
   font-size: 14px;
 }
+
 .footer-links li {
   font-size: 14px;
 }
@@ -722,14 +771,17 @@ date {
     width: 100%;
     height: 500px;
   }
+
   .story img {
     width: 100%;
-    height: 500px ;
+    height: 500px;
   }
+
   .topstory-image {
     width: 100%;
     height: 300px;
   }
+
   .gridcontainer img {
     width: 100%;
     height: 600px;
@@ -739,13 +791,15 @@ date {
     width: 100%;
     height: 600px;
   }
+
   .usimage {
     width: 96%;
     height: 600px;
   }
+
   .usimg {
-      width: 42%;
-      height: 233px;
+    width: 42%;
+    height: 233px;
   }
 
   .uscontainer a {
@@ -767,6 +821,7 @@ date {
     font-weight: 700;
     padding: 20px;
   }
+
   .techcontainer a {
     font-size: 20px;
     color: black;
@@ -791,6 +846,7 @@ date {
   .grids:nth-child(2) {
     margin-top: 39px;
   }
+
   .bottom-text-ed1 {
     position: absolute;
     font-size: 17px;
@@ -799,11 +855,13 @@ date {
     color: #f72210;
     padding: 8px 15px 9px;
   }
+
   .gridcontainer a {
     color: #000;
     text-decoration: none;
     font: bold 25px/19px "Roboto Condensed", sans-serif;
   }
+
   .menu {
     max-width: 100vw;
   }
@@ -976,6 +1034,7 @@ date {
     color: #f72210;
     padding: 8px 15px 9px;
   }
+
   .bottom-text {
     position: absolute;
     font-size: 45px;
@@ -1079,7 +1138,7 @@ date {
 
   .copyright {
     margin-top: 25px;
-    padding-left: 0px;
+    padding-left: 0;
     font-size: 15px;
     color: grey;
   }
@@ -1109,8 +1168,6 @@ date {
     font-size: 27px;
   }
 }
-
-
 
 /*  Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -1197,7 +1254,6 @@ date {
     padding: 20px;
   }
 
-  
   .top-story-para-1 {
     font-size: 39px;
     font-weight: 600;
@@ -1222,7 +1278,9 @@ date {
     display: block;
     width: 63px;
     height: 55px;
-    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    background:
+      url(https://g.newsweek.com/www/images/logo-n1.svg)
+      center/contain no-repeat #f72210;
     margin-right: 10px;
     margin-top: 31px;
   }
@@ -1233,37 +1291,38 @@ date {
     padding: 14px;
     margin: 0 auto;
   }
-.col-r {
-  height: 478px;
-  width: 1269px;
-}
 
-.copyright {
-  margin-top: 25px;
-  padding-left: 0px;
-  font-size: 35px;
-  color: grey;
-}
+  .col-r {
+    height: 478px;
+    width: 1269px;
+  }
 
-.footer-red svg {
-  width: 452px;
-  height: 71px;
-  fill: #f72210;
-  padding: 8px;
-}
+  .copyright {
+    margin-top: 25px;
+    padding-left: 0;
+    font-size: 35px;
+    color: grey;
+  }
 
-.bottom-text-ed1 {
-  position: absolute;
-  font-size: 66px;
-  bottom: 375px;
-  left: 15px;
-  color: #f72210;
-  padding: 8px 15px 9px;
-}
+  .footer-red svg {
+    width: 452px;
+    height: 71px;
+    fill: #f72210;
+    padding: 8px;
+  }
 
-.usimage{
-  width: 1500px;
-}
+  .bottom-text-ed1 {
+    position: absolute;
+    font-size: 66px;
+    bottom: 375px;
+    left: 15px;
+    color: #f72210;
+    padding: 8px 15px 9px;
+  }
+
+  .usimage {
+    width: 1500px;
+  }
 
   .c-vs {
     position: relative;
@@ -1326,14 +1385,15 @@ date {
     color: blue;
     padding: 8px 15px 9px;
   }
-.bottom-text-3 {
-  position: absolute;
-  font-size: 71px;
-  bottom: 436px;
-  left: 0;
-  color: blue;
-  padding: 8px 15px 9px;
-}
+
+  .bottom-text-3 {
+    position: absolute;
+    font-size: 71px;
+    bottom: 436px;
+    left: 0;
+    color: blue;
+    padding: 8px 15px 9px;
+  }
 
   .bottom-text-4 {
     position: absolute;
@@ -1456,9 +1516,9 @@ date {
     font: bold 45px/19px "Roboto Condensed", sans-serif;
   }
 
-  .gridcontainer h3{
-        font-size: 45px;
-        margin-top: 30px;
+  .gridcontainer h3 {
+    font-size: 45px;
+    margin-top: 30px;
   }
 
   .gridimage {
@@ -1526,7 +1586,7 @@ date {
     height: 310px;
   }
 
-  .leftcontainer img{
+  .leftcontainer img {
     width: 1028px;
   }
 
@@ -1564,8 +1624,6 @@ date {
     display: grid;
   }
 }
-
-
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
@@ -1622,31 +1680,31 @@ date {
     color: blue;
     padding: 8px 15px 9px;
   }
-.bottom-text-7 {
-  position: absolute;
-  font-size: 17px;
-  bottom: 90px;
-  left: 0;
-  color: blue;
-  padding: 8px 15px 9px;
-}
 
-.bottom-text-8 {
-  position: absolute;
-  font-size: 17px;
-  bottom: 123px;
-  left: 0;
-  color: blue;
-  padding: 8px 15px 9px;
-}
+  .bottom-text-7 {
+    position: absolute;
+    font-size: 17px;
+    bottom: 90px;
+    left: 0;
+    color: blue;
+    padding: 8px 15px 9px;
+  }
 
-.bottom-text-9 {
-  position: absolute;
-  font-size: 17px;
-  bottom: 100px;
-  left: 0;
-  color: blue;
-  padding: 8px 15px 9px;
-}
+  .bottom-text-8 {
+    position: absolute;
+    font-size: 17px;
+    bottom: 123px;
+    left: 0;
+    color: blue;
+    padding: 8px 15px 9px;
+  }
 
+  .bottom-text-9 {
+    position: absolute;
+    font-size: 17px;
+    bottom: 100px;
+    left: 0;
+    color: blue;
+    padding: 8px 15px 9px;
+  }
 }
