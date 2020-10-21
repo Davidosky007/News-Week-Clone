@@ -809,6 +809,309 @@ date {
   }
 }
 
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .featured-stories {
+    min-width: 40vw;
+  }
+
+  .featured-stories img {
+    width: 100%;
+    height: 500px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .nav-left-red {
+    margin-right: 118px;
+  }
+
+  .nav-red-right {
+    display: none;
+  }
+
+  .featured-header {
+    color: rgba(3, 3, 3, 0.4);
+    font: bold 40px/16px "Roboto Condensed", sans-serif;
+    padding-bottom: 20px;
+    padding-top: 25px;
+  }
+
+  .top-story {
+    min-width: 40vw;
+  }
+
+  .story img {
+    width: 100%;
+    height: 500px;
+  }
+
+  .topstory-image {
+    width: 100%;
+    height: 50px;
+  }
+
+  .top-story-header {
+    color: rgba(3, 3, 3, 0.4);
+    font: bold 40px/16px "Roboto Condensed", sans-serif;
+    padding-bottom: 20px;
+    padding-top: 25px;
+  }
+
+  .debate {
+    min-width: 100vw;
+  }
+
+  .debate p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #888;
+  }
+
+  .debate img {
+    width: 128px;
+    height: 128px;
+  }
+
+  .top-story-para-1 {
+    padding-left: 20px;
+    font-size: 33px;
+    font-weight: 500;
+  }
+
+  .cards img {
+    width: 55%;
+    height: 427px;
+    margin-right: 393px;
+    margin-left: 256px;
+  }
+
+  .cards-content {
+    width: 690px;
+    margin-left: 254px;
+    margin-right: 192px;
+  }
+
+  .newsletter-signup {
+    margin-right: 439px;
+    margin-left: 317px;
+    width: 680px;
+    padding: 20px;
+  }
+
+  .title p {
+    font: bold 18px/16px "Roboto Condensed", sans-serif;
+    margin-bottom: 21px;
+    text-transform: uppercase;
+    color: #000;
+  }
+
+  .email {
+    width: 589px;
+    height: 37px;
+    padding: 3px;
+    margin: 0 auto;
+  }
+
+  .btn {
+    background-color: #f72310;
+    color: white;
+    width: 240px;
+    height: 32px;
+    margin-top: 10px;
+    padding: 3px;
+  }
+
+  .btn-1 {
+    text-transform: uppercase;
+    border-radius: 24px;
+    color: #fff;
+    background-color: #f72310;
+    font-size: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+    border: 0 none;
+    padding-right: 15px;
+    font-weight: 600;
+    padding-top: 10px;
+  }
+
+  .btn-sub {
+    color: #000;
+    width: 159px;
+    height: 44px;
+    margin-top: 5px;
+    padding: 3px;
+    border-radius: 24px;
+    font: bold 18px/24px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+  }
+
+  .col-r {
+    height: 277px;
+    width: 1269px;
+  }
+
+  .col-r .news-letter-img {
+    width: 581px;
+    max-width: 626px;
+  }
+
+  .news-letter-info {
+    font-size: 20px;
+  }
+
+  .editorcontainer img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .bottom-text-ed1 {
+    position: absolute;
+    font-size: 36px;
+    bottom: 116px !important;
+    left: 15px;
+    color: #f72210;
+    padding: 8px 15px 9px;
+  }
+
+  .bottom-text {
+    position: absolute;
+    font-size: 45px;
+    bottom: 103px;
+    left: 0;
+    color: #f72210;
+    padding: 8px 15px 9px;
+  }
+
+  .bottom-text-1 {
+    position: absolute;
+    font-size: 45px;
+    bottom: -8px;
+    left: 0;
+    color: #f72210;
+    padding: 8px 15px 9px;
+  }
+
+  .bottom-text-2 {
+    position: absolute;
+    font-size: 45px;
+    bottom: 172px;
+    left: 0;
+    color: #f72210;
+    padding: 8px 15px 9px;
+  }
+
+  .bottom-text-3 {
+    position: absolute;
+    font-size: 45px;
+    bottom: 141px;
+    left: 0;
+    color: #f72210;
+    padding: 8px 15px 9px;
+  }
+
+  .bottom-text-4 {
+    position: absolute;
+    font-size: 45px;
+    bottom: 112px;
+    left: 0;
+    color: b#f72210;
+    padding: 8px 15px 9px;
+  }
+
+  .bottom-text-5 {
+    position: absolute;
+    font-size: 45px;
+    bottom: 82px;
+    left: 0;
+    color: blue;
+    padding: 8px 15px 9px;
+  }
+
+  .bottom-text-6 {
+    position: absolute;
+    font-size: 45px;
+    bottom: 82px;
+    left: 0;
+    color: blue;
+    padding: 8px 15px 9px;
+  }
+
+  .bottom-text-7 {
+    position: absolute;
+    font-size: 45px;
+    bottom: 113px;
+    left: 0;
+    color: blue;
+    padding: 8px 15px 9px;
+  }
+
+  .bottom-text-8 {
+    position: absolute;
+    font-size: 45px;
+    bottom: 99px;
+    left: 0;
+    color: blue;
+    padding: 8px 15px 9px;
+  }
+
+  .bottom-text-9 {
+    position: absolute;
+    font-size: 45px;
+    bottom: 98px;
+    left: 0;
+    color: blue;
+    padding: 8px 15px 9px;
+  }
+
+  .menu {
+    max-width: 100vw;
+  }
+
+  .footer-red svg {
+    width: 370px;
+    height: 71px;
+    fill: #f72210;
+    padding: 8px;
+  }
+
+  .copyright {
+    margin-top: 25px;
+    padding-left: 0px;
+    font-size: 15px;
+    color: grey;
+  }
+
+  .socialicons li {
+    font-size: 52px;
+  }
+
+  .footer {
+    padding: 20px;
+    width: 1250px;
+    margin: 0 auto;
+  }
+
+  .editions {
+    font-size: 25px;
+    font-weight: 700;
+    color: grey;
+  }
+
+  .footer-links li {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .footer-links1 li {
+    font-size: 27px;
+  }
+}
+
+
 
 /*  Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -1263,307 +1566,6 @@ date {
   }
 }
 
-/* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-  .featured-stories {
-    min-width: 40vw;
-  }
-
-  .featured-stories img {
-    width: 100%;
-    height: 500px;
-  }
-
-  p {
-    font-size: 20px;
-  }
-
-  .nav-left-red {
-    margin-right: 118px;
-  }
-
-  .nav-red-right {
-    display: none;
-  }
-
-  .featured-header {
-    color: rgba(3, 3, 3, 0.4);
-    font: bold 40px/16px "Roboto Condensed", sans-serif;
-    padding-bottom: 20px;
-    padding-top: 25px;
-  }
-
-  .top-story {
-    min-width: 40vw;
-  }
-
-  .story img {
-    width: 100%;
-    height: 500px;
-  }
-
-  .topstory-image {
-    width: 100%;
-    height: 50px;
-  }
-
-  .top-story-header {
-    color: rgba(3, 3, 3, 0.4);
-    font: bold 40px/16px "Roboto Condensed", sans-serif;
-    padding-bottom: 20px;
-    padding-top: 25px;
-  }
-
-  .debate {
-    min-width: 100vw;
-  }
-
-  .debate p {
-    font-size: 16px;
-    font-weight: 600;
-    color: #888;
-  }
-
-  .debate img {
-    width: 128px;
-    height: 128px;
-  }
-
-  .top-story-para-1 {
-    padding-left: 20px;
-    font-size: 33px;
-    font-weight: 500;
-  }
-
-  .cards img {
-    width: 55%;
-    height: 427px;
-    margin-right: 393px;
-    margin-left: 256px;
-  }
-
-  .cards-content {
-    width: 690px;
-    margin-left: 254px;
-    margin-right: 192px;
-  }
-
-  .newsletter-signup {
-    margin-right: 439px;
-    margin-left: 317px;
-    width: 680px;
-    padding: 20px;
-  }
-
-  .title p {
-    font: bold 18px/16px "Roboto Condensed", sans-serif;
-    margin-bottom: 21px;
-    text-transform: uppercase;
-    color: #000;
-  }
-
-  .email {
-    width: 589px;
-    height: 37px;
-    padding: 3px;
-    margin: 0 auto;
-  }
-
-  .btn {
-    background-color: #f72310;
-    color: white;
-    width: 240px;
-    height: 32px;
-    margin-top: 10px;
-    padding: 3px;
-  }
-
-  .btn-1 {
-    text-transform: uppercase;
-    border-radius: 24px;
-    color: #fff;
-    background-color: #f72310;
-    font-size: 30px;
-    line-height: 30px;
-    padding-left: 15px;
-    border: 0 none;
-    padding-right: 15px;
-    font-weight: 600;
-    padding-top: 10px;
-  }
-
-  .btn-sub {
-    color: #000;
-    width: 159px;
-    height: 44px;
-    margin-top: 5px;
-    padding: 3px;
-    border-radius: 24px;
-    font: bold 18px/24px "Roboto Condensed", sans-serif;
-    text-transform: uppercase;
-  }
-
-  .col-r {
-    height: 277px;
-    width: 1269px;
-  }
-
-  .col-r .news-letter-img {
-    width: 581px;
-    max-width: 626px;
-  }
-
-  .news-letter-info {
-    font-size: 20px;
-  }
-
-  .editorcontainer img {
-    width: 100%;
-    height: 300px;
-  }
-
-  .bottom-text-ed1 {
-    position: absolute;
-    font-size: 36px;
-    bottom: 116px !important;
-    left: 15px;
-    color: #f72210;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text {
-    position: absolute;
-    font-size: 45px;
-    bottom: 103px;
-    left: 0;
-    color: #f72210;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-1 {
-    position: absolute;
-    font-size: 45px;
-    bottom: -8px;
-    left: 0;
-    color: #f72210;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-2 {
-    position: absolute;
-    font-size: 45px;
-    bottom: 172px;
-    left: 0;
-    color: #f72210;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-3 {
-    position: absolute;
-    font-size: 45px;
-    bottom: 141px;
-    left: 0;
-    color: #f72210;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-4 {
-    position: absolute;
-    font-size: 45px;
-    bottom: 112px;
-    left: 0;
-    color: b#f72210;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-5 {
-    position: absolute;
-    font-size: 45px;
-    bottom: 82px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-6 {
-    position: absolute;
-    font-size: 45px;
-    bottom: 82px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-7 {
-    position: absolute;
-    font-size: 45px;
-    bottom: 113px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-8 {
-    position: absolute;
-    font-size: 45px;
-    bottom: 99px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-9 {
-    position: absolute;
-    font-size: 45px;
-    bottom: 98px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .menu {
-    max-width: 100vw;
-  }
-
-  .footer-red svg {
-    width: 370px;
-    height: 71px;
-    fill: #f72210;
-    padding: 8px;
-  }
-
-  .copyright {
-    margin-top: 25px;
-    padding-left: 0px;
-    font-size: 15px;
-    color: grey;
-  }
-
-  .socialicons li {
-    font-size: 52px;
-  }
-
-  .footer {
-    padding: 20px;
-    width: 1250px;
-    margin: 0 auto;
-  }
-
-  .editions {
-    font-size: 25px;
-    font-weight: 700;
-    color: grey;
-  }
-
-  .footer-links li {
-    font-size: 25px;
-    line-height: 35px;
-  }
-
-  .footer-links1 li {
-    font-size: 27px;
-  }
-}
 
 
 /* Large devices (desktops, less than 1200px) */
