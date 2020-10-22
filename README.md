@@ -7,7 +7,7 @@
 
 > This project is part of Microverse HTML/CSS curriculum
 
-![screenshot]()
+![screenshot](./assets/images/project-shoot.jpg)
 
 The project is the seventh of the Microverse curriculum HTML/CSS module.
 This project is about cloning the News Week Page using Bootstrap responsive design.
