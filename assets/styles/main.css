@@ -48,6 +48,7 @@ img {
   height: 35px;
   fill: white;
 }
+
 .login {
   font-size: 18px;
   background: none;
@@ -80,7 +81,7 @@ img {
 }
 
 .roboto {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
 }
 
@@ -302,9 +303,9 @@ img {
     text-align: center;
   }
 
-  .bar{
-        font-size: 27px;
-        padding: 4px;
+  .bar {
+    font-size: 27px;
+    padding: 4px;
   }
 
   .top-head {
@@ -316,20 +317,20 @@ img {
 }
 
 @media only screen and (max-width: 450px) {
- .brand-m-s {
-   width: 84px;
-   height: 34px;
-   fill: white;
- }
+  .brand-m-s {
+    width: 84px;
+    height: 34px;
+    fill: white;
+  }
 
- .bar {
-   font-size: 24px;
-   padding: 4px;
- }
+  .bar {
+    font-size: 24px;
+    padding: 4px;
+  }
 
-.longimg {
-  width: 100%;
-}
+  .longimg {
+    width: 100%;
+  }
 
   .subscription-small {
     font-size: 12px;
