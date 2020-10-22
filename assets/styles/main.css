@@ -11,1689 +11,317 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-color: #f4f5f6;
 }
 
 img {
-  max-width: 100%;
-  display: block;
   object-fit: cover;
 }
 
-/* HEADER SECTION */
 
-.navcontainer {
-  position: relative;
-  width: 1250px;
-  margin: 0 auto;
+/* MAIN STYLING */
+
+.container-main {
+  width: 96%;
 }
 
-.main-nav-red {
+.bg-color {
   background-color: #f72210;
-  padding: 20px;
-  align-content: center;
 }
 
-.middlenav {
-  padding: 20px;
+.txt-color {
+  color: #f72210;
 }
 
-.search {
-  border: 0 none;
+.weather-logo {
+  height: 24px;
+  width: 24px;
 }
 
-.search-icon {
-  background:
-    url(../images/icon-search-glass.svg) center/contain no-repeat
-    white;
-  width: 20px;
-  height: 26px;
-  clip: auto;
-  font-size: 0;
-  position: absolute;
-  top: 131px;
-  right: 133px;
+.brand {
+  width: 396px;
+  height: 60px;
+  fill: white;
 }
 
-.middlenav::before {
-  position: absolute;
-  top: 115px;
-  right: 0;
-  content: "";
-  display: block;
-  width: 87px;
-  background-color: #f72210;
-  border-left: 12px solid white;
-  border-top: 13px solid #f72210;
+.brand-m-s {
+  width: 132px;
+  height: 20px;
+  fill: white;
 }
 
-.nav-red-right img {
-  width: 27px;
-  height: 16px;
-}
-
-.nav-red-right span {
-  color: #fff;
-}
-
-.nav-red-right p {
-  color: #fff;
-}
-
-.nav-red-mid svg {
-  width: 410px;
-  height: 70px;
-  fill: #fff;
-}
-
-.btn-1 {
-  text-transform: uppercase;
-  border-radius: 24px;
-  color: #fff;
-  background-color: #f72310;
+.login {
   font-size: 18px;
-  line-height: 30px;
-  padding-left: 15px;
-  border: 0 none;
-  padding-right: 15px;
-  font-weight: 600;
+  background: none;
+  border: none;
 }
 
-.btn-sub {
-  color: #000;
-  width: 131px;
-  height: 35px;
-  margin-top: 5px;
-  padding: 3px;
-  border-radius: 24px;
-  font: bold 13px/24px "Roboto Condensed", sans-serif;
+.subscription {
+  font-size: 18px;
+  background-color: #ffe400;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.subscription-small {
+  font-size: 14px;
+  background-color: #ffe400;
+  border: none;
+  height: 25px;
+  border-radius: 20px;
+}
+
+.bar {
+  transform: scale(1.3);
+}
+
+.person {
+  transform: scale(1.2);
+}
+
+.roboto {
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
 }
 
-/* Main Section */
-
-.main {
-  margin-bottom: 50px;
+.textbar-bold {
+  font-size: 16px;
 }
 
-.decor {
-  position: relative;
-}
-
-.decor::before {
-  content: "";
-  display: block;
-  background-color: #d9d9d9;
-  height: 1px;
-  position: absolute;
-  left: 0;
+.redclip {
+  width: 70px;
+  height: 12px;
   right: 0;
-  top: calc(50% - 2px);
+  top: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 36% 100%);
 }
 
-.decor::after {
-  content: "";
-  display: block;
-  background-color: #d9d9d9;
-  height: 1px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
+.info {
+  border: 1px solid rgba(166, 166, 166, 0.56);
 }
 
-.c-vs {
-  position: relative;
-  z-index: 1;
-  width: 32px;
-  height: 32px;
-  background-color: #000;
-  color: #d6d6d6;
-  border-radius: 50%;
-  font: bold 14px/32px "Roboto Condensed", sans-serif;
-  text-align: center;
-  margin: 6px auto;
+.form-submit {
+  border: none;
+  border-radius: 2px;
 }
 
-/* FEATURED STORIES SECTION */
-.grid {
-  width: 1250px;
-  margin: 0 auto;
-  gap: 15px;
+.sponsor-form{
+  background-color: #e2e0e0;
 }
 
-.featured-header {
-  color: rgba(3, 3, 3, 0.4);
-  font: bold 16px/16px "Roboto Condensed", sans-serif;
-  padding-bottom: 10px;
-  padding-top: 15px;
+.sponsor-header {
+  font-size: 20px;
 }
 
-.bottom-text {
-  position: absolute;
-  font-size: 21px;
-  bottom: 154px;
-  left: 0;
-  color: red;
-  padding: 8px 15px 9px;
+.card{
+  background-color: #e2e0e0;
 }
 
-.bottom-text-1 {
-  position: absolute;
+.news-signup{
+  background-color: #e2e0e0 !important;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.title-small {
+  font-size: 14px;
+}
+
+.fleximg {
+  width: 95px;
+  height: 95px;
+}
+
+.flex-title {
+  font-size: 15px;
+}
+
+.flex-description {
+  font-size: 13px;
+}
+
+.heavy1 {
+  height: 3px;
+  background-color: grey;
+  opacity: 0.5;
+}
+
+.heavy2 {
+  height: 3px;
+  border: 1px solid black;
+  opacity: 0.5;
+}
+
+.tag {
   font-size: 17px;
   bottom: -8px;
   left: 0;
-  color: blue;
-  padding: 8px 15px 9px;
+  color: red;
 }
 
-.bottom-text-2 {
-  position: absolute;
-  font-size: 17px;
-  bottom: 208px;
-  left: 0;
-  color: blue;
-  padding: 8px 15px 9px;
+.circimg {
+  height: 65px;
+  width: 65px;
 }
 
-.bottom-text-3 {
-  position: absolute;
-  font-size: 17px;
-  bottom: 208px;
-  left: 0;
-  color: blue;
-  padding: 8px 15px 9px;
+.bcircle {
+  top: -20px;
+  left: 40%;
+  background-color: black;
+  border-radius: 50%;
 }
 
-.bottom-text-4 {
-  position: absolute;
-  font-size: 17px;
-  bottom: 148px;
-  left: 0;
-  color: blue;
-  padding: 8px 15px 9px;
+.heading1 {
+  font-size: 24px;
 }
 
-.bottom-text-5 {
-  position: absolute;
-  font-size: 17px;
-  bottom: 118px;
-  left: 0;
-  color: blue;
-  padding: 8px 15px 9px;
+.absolute-p {
+  bottom: -17px;
 }
 
-.bottom-text-6 {
-  position: absolute;
-  font-size: 17px;
-  bottom: 123px;
-  left: 0;
-  color: blue;
-  padding: 8px 15px 9px;
-}
-
-.bottom-text-7 {
-  position: absolute;
-  font-size: 17px;
-  bottom: 115px;
-  left: 0;
-  color: blue;
-  padding: 8px 15px 9px;
-}
-
-.bottom-text-8 {
-  position: absolute;
-  font-size: 17px;
-  bottom: 148px;
-  left: 0;
-  color: blue;
-  padding: 8px 15px 9px;
-}
-
-.bottom-text-9 {
-  position: absolute;
-  font-size: 17px;
-  bottom: 124px;
-  left: 0;
-  color: blue;
-  padding: 8px 15px 9px;
-}
-
-.featured-img {
-  width: 358px;
-  height: 242px;
-}
-
-.description {
-  font-size: 20px;
-  font-weight: bolder;
-}
-
-.top-story {
-  width: 130%;
-}
-
-.top-story-header {
-  color: rgba(3, 3, 3, 0.4);
-  font: bold 16px/16px "Roboto Condensed", sans-serif;
-  padding-bottom: 10px;
-  padding-top: 15px;
-}
-
-.biden-img-1 {
-  width: 512px;
-  height: 325px;
-}
-
-.top-story-para {
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.main-grid {
-  margin: 0 auto;
-}
-
-.main-grid img {
+.smallimg {
   width: 155px;
   height: 155px;
 }
 
-.culture {
-  z-index: 1000;
-}
-
-.debate p {
-  font-size: 13px;
-  font-weight: 600;
-  color: #888;
-}
-
-.debate img {
-  width: 65px;
-  height: 65px;
-}
-
-.top-story-para-1 {
-  font-size: 15px;
-  font-weight: 500;
-}
-
-.newsletter-signup {
-  width: 277px;
-  height: 147px;
-  border: 1px solid #e2e0e0;
-  margin-bottom: 20px;
-  padding: 15px;
-  background-color: #e2e0e0;
-}
-
-.title p {
-  font: bold 16px/16px "Roboto Condensed", sans-serif;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-  color: #000;
-}
-
-.btn {
-  background-color: #f72310;
-  color: white;
-  width: 240px;
-  height: 30px;
-  margin-top: 5px;
-  padding: 3px;
-}
-
-.email {
-  width: 240px;
-  height: 30px;
-  padding: 3px;
-}
-
-.cards img {
-  width: 350px;
-  height: 300px;
-}
-
-.cards-content {
-  border: 1px solid rgba(166, 166, 166, 0.56);
-  text-align: center;
-  padding: 10px;
-}
-
-/* THE FIRST GRID SECTION */
-.gridcontainer {
-  width: 1250px;
-  margin: 0 auto;
-}
-
-.gridimg {
-  width: 295px;
-  height: 322px;
-  padding-top: 30px;
-}
-
-.gridimage {
-  width: 293px;
-  height: 389px;
-}
-
-.grid-dissent {
-  width: 291px;
-  height: 318px;
-  padding-top: 27px;
-}
-
-.col-md-3 {
-  margin-bottom: 50px;
-}
-
-.n-icon {
-  flex: none;
-  display: block;
-  width: 29px;
-  height: 28px;
-  background:
-    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
-    no-repeat #f72210;
-  margin-right: 10px;
-}
-
-.gridcontainer a {
-  color: #000;
-  text-decoration: none;
-  font: bold 19px/19px "Roboto Condensed", sans-serif;
-}
-
-.diss-3 a {
-  line-height: 104px;
-}
-
-.uscontainer a {
-  font-size: 18px;
-  color: black;
-  font-weight: 700;
-}
-
-.worldcontainer a {
-  font-size: 18px;
-  color: black;
-  font-weight: 700;
-}
-
-.businesscontainer a {
-  font-size: 18px;
-  color: black;
-  font-weight: 700;
-}
-
-.techcontainer a {
-  font-size: 18px;
-  color: black;
-  font-weight: 700;
-}
-
-.culturecontainer a {
-  font-size: 18px;
-  color: black;
-  font-weight: 700;
-}
-
-.sportcontainer a {
-  font-size: 18px;
-  color: black;
-  font-weight: 700;
-}
-
-.gridcontainer a:hover {
-  text-decoration: underline #f72210;
-}
-
-.bottom-text-grid-img {
-  position: absolute;
-  display: block;
-  font: bold 16px/33px "Roboto Condensed", sans-serif;
-  bottom: 43px;
-  left: 15px;
-  color: #f72210;
-  text-transform: uppercase;
-  padding: 0 10px;
-  background-color: rgba(255, 255, 255, 0.9);
-  z-index: 1;
-}
-
-.all-features {
-  display: block;
-  background-color: #f4f5f6;
-  color: black;
-  text-align: center;
-  margin-bottom: 0;
-  padding: 15px;
-}
-
-.all-features::after {
-  content: "";
-  display: inline-block;
-  margin-left: 5px;
-  margin-bottom: 1px;
-  width: 8px;
-  height: 8px;
-  transform: rotate(45deg);
-  border-top-width: 2px;
-  border-top-style: solid;
-  border-right-width: 2px;
-  border-right-style: solid;
-}
-
-.category {
-  font: bold 16px/26px "Roboto Condensed", sans-serif;
-  color: #f72210;
-  text-transform: uppercase;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.category span {
-  display: inline-block;
-}
-
-.red-cat {
-  padding: 0 7px;
-  background-color: #f72210;
-  color: white;
-  margin-right: 7px;
-}
-
-.bottom-text-grid-img2 {
-  position: absolute;
-  display: block;
-  font: bold 16px/33px "Roboto Condensed", sans-serif;
-  bottom: 111px;
-  left: 15px;
-  color: #f72210;
-  text-transform: uppercase;
-  padding: 0 10px;
-  background-color: rgba(255, 255, 255, 0.9);
-  z-index: 1;
-}
-
-/* EDITOR'S PICK SECTION */
-.editorcontainer {
-  width: 1250px;
-  margin: 0 auto;
-}
-
-.edt {
-  font-weight: 700;
-  font-size: 20px;
-}
-
-.bottom-text-ed1 {
-  position: absolute;
-  font-size: 17px;
-  bottom: 217px;
-  left: 15px;
-  color: #f72210;
-  padding: 8px 15px 9px;
-}
-
-/* U.S. */
-.uscontainer {
-  width: 1250px;
-  margin: 0 auto;
-}
-
-.usheader {
-  color: #f72210;
-  font-weight: 700;
-}
-
-.uscontainer a:hover {
-  text-decoration: underline #f72210;
-}
-
-.trump-image {
-  width: 95px;
-  height: 77px;
-}
-
-.worldcontainer {
-  width: 1250px;
-  margin: 0 auto;
-}
-
-.worldheader {
-  color: #f72210;
-  font-weight: 700;
-}
-
-.worldcontainer a:hover {
-  text-decoration: underline #f72210;
-}
-
-.businesscontainer {
-  width: 1250px;
-  margin: 0 auto;
-}
-
-.businessheader {
-  color: #f72210;
-  font-weight: 700;
-}
-
-.businesscontainer a:hover {
-  text-decoration: underline #f72210;
-}
-
-.techcontainer {
-  width: 1250px;
-  margin: 0 auto;
-}
-
-.techheader {
-  color: #f72210;
-  font-weight: 700;
-}
-
-.techcontainer a:hover {
-  text-decoration: underline #f72210;
-}
-
-.culturecontainer {
-  width: 1250px;
-  margin: 0 auto;
-}
-
-.cultureheader {
-  color: #f72210;
-  font-weight: 700;
-}
-
-.culturecontainer a:hover {
-  text-decoration: underline #f72210;
-}
-
-.sportcontainer {
-  width: 1250px;
-  margin: 0 auto;
-}
-
-.sportheader {
-  color: #f72210;
-  font-weight: 700;
-}
-
-.sportcontainer a:hover {
-  text-decoration: underline #f72210;
-}
-
-/* SUBSCRIBE SECTION */
-
-.subcribe-sect {
-  width: 1250px;
-  margin: 0 auto;
-  position: relative;
-  padding-top: 40px;
-}
-
-.subcribe-sect .col-1 {
-  padding: 24px 20px 20px;
-}
-
-.mag-cover {
-  position: relative;
-}
-
-.mag-cover-previous {
-  width: 170px;
-  height: 228px;
-}
-
-.mag-cover-previous img {
-  vertical-align: middle;
-  max-width: 100%;
-}
-
-.mag-cover img {
+.my-img {
   width: 100%;
-  height: auto;
+  height: 290px;
 }
 
-.mag-cover-pres {
+.small-img {
+  width: 100%;
+  height: 200px;
+}
+
+.lg-img {
+  width: 100%;
+  height: 250px;
+}
+
+.x-small {
+  width: 95px;
+  height: 95px;
+}
+
+.absolute-item {
   width: 170px;
-  height: 228px;
-  position: absolute;
-  top: 13px;
-  left: 80px;
+  height: 227px;
 }
 
-.info {
-  padding-left: 260px;
-  padding-top: 44px;
+.abs-item-2 {
+  left: 50px;
+  top: 10px;
 }
 
-.mag-main {
-  background-color: #f4f5f6;
+.relativetext {
+  margin-left: 15%;
 }
 
-.sub-2 {
-  background-color: #f72310;
-  width: 146px;
-  height: 47px;
-  color: #fff;
-  font: bold 18px/18px "Roboto Condensed", sans-serif;
-  padding: 10px 10px 10px 12px;
-  border-radius: 3px;
-  display: inline-block;
+.longimg {
+  width: 35%;
 }
 
-.sub-2::after {
-  content: ">";
+.n-logo {
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.img-section {
+  width: 100%;
+  height: 222px;
+}
+
+.subscribe-3 {
   font-size: 20px;
-  color: #fff;
-  padding-left: 5px;
 }
 
-.col-r {
-  height: 277px;
+.form-text {
+  border: 1px solid lightgray;
 }
 
-.news-letter-img {
-  background: url(../images/starting5-homepage.png) center center / cover no-repeat;
-}
-
-.col-r .news-letter-img {
-  width: 77%;
-  max-width: 191px;
-}
-
-.news-letter-info {
-  width: 36%;
-  line-height: 29px;
-}
-
-.news-main {
-  border: 1px solid #888;
-  padding: 5px;
-}
-
-/* FOOTER SECTION */
-
-.footer {
-  width: 1250px;
-  margin: 0 auto;
-}
-
-.footer-red svg {
-  width: 240px;
-  height: 40px;
+.brand-red {
+  width: 236px;
+  height: 36px;
   fill: #f72210;
 }
 
 .copyright {
-  margin-top: 25px;
-  padding-left: 10px;
-  font-size: 12px;
-  color: grey;
+  bottom: -1.3rem;
+  right: -9rem;
 }
 
-.socialicons li {
-  font-size: 20px;
+.s5 {
+  width: 95%;
+  margin: auto;
 }
 
-.editions {
-  font-weight: 700;
-  color: grey;
+.img-size {
+  width: 100%;
+  height: 200px;
 }
 
-.footer-links1 li {
-  font-size: 14px;
+.img-size-big {
+  width: 100%;
+  height: 260px;
 }
 
-.footer-links li {
-  font-size: 14px;
+.head-fonts {
+  font-size: 85%;
 }
 
-/* MEDIA QUERY SECTION */
-
-/*  Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-  .featured-stories img {
-    width: 100%;
-    height: 500px;
-  }
-
-  .story img {
-    width: 100%;
-    height: 500px;
-  }
-
-  .topstory-image {
-    width: 100%;
-    height: 300px;
-  }
-
-  .gridcontainer img {
-    width: 100%;
-    height: 600px;
-  }
-
-  .editorcontainer img {
-    width: 100%;
-    height: 600px;
-  }
-
-  .usimage {
-    width: 96%;
-    height: 600px;
-  }
-
-  .usimg {
-    width: 42%;
-    height: 233px;
-  }
-
-  .uscontainer a {
-    color: black;
-    font-weight: 600;
-    padding: 43px;
-  }
-
-  .worldcontainer a {
-    padding: 20px;
-    font-size: 21px;
-    color: black;
-    font-weight: 700;
-  }
-
-  .businesscontainer a {
-    font-size: 20px;
-    color: black;
-    font-weight: 700;
-    padding: 20px;
-  }
-
-  .techcontainer a {
-    font-size: 20px;
-    color: black;
-    font-weight: 700;
-    padding: 20px;
-  }
-
-  .culturecontainer a {
-    font-size: 20px;
-    color: black;
-    font-weight: 700;
-    padding: 20px;
-  }
-
-  .sportcontainer a {
-    padding: 20px;
-    font-size: 20px;
-    color: black;
-    font-weight: 700;
-  }
-
-  .grids:nth-child(2) {
-    margin-top: 39px;
-  }
-
-  .bottom-text-ed1 {
-    position: absolute;
-    font-size: 17px;
-    bottom: 158px;
-    left: 15px;
-    color: #f72210;
-    padding: 8px 15px 9px;
-  }
-
-  .gridcontainer a {
-    color: #000;
-    text-decoration: none;
-    font: bold 25px/19px "Roboto Condensed", sans-serif;
-  }
-
-  .menu {
-    max-width: 100vw;
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .sponsor {
+    width: 50%;
+    margin: auto;
   }
 }
 
-/* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-  .featured-stories {
-    min-width: 40vw;
+@media only screen and (max-width: 767px) {
+  .sponsor-form {
+    width: 70%;
+    margin: auto;
   }
 
-  .featured-stories img {
-    width: 100%;
-    height: 500px;
-  }
-
-  p {
-    font-size: 20px;
-  }
-
-  .nav-left-red {
-    margin-right: 118px;
-  }
-
-  .nav-red-right {
-    display: none;
-  }
-
-  .featured-header {
-    color: rgba(3, 3, 3, 0.4);
-    font: bold 40px/16px "Roboto Condensed", sans-serif;
-    padding-bottom: 20px;
-    padding-top: 25px;
-  }
-
-  .top-story {
-    min-width: 40vw;
-  }
-
-  .story img {
-    width: 100%;
-    height: 500px;
-  }
-
-  .topstory-image {
-    width: 100%;
-    height: 50px;
-  }
-
-  .top-story-header {
-    color: rgba(3, 3, 3, 0.4);
-    font: bold 40px/16px "Roboto Condensed", sans-serif;
-    padding-bottom: 20px;
-    padding-top: 25px;
-  }
-
-  .debate {
-    min-width: 100vw;
-  }
-
-  .debate p {
-    font-size: 16px;
-    font-weight: 600;
-    color: #888;
-  }
-
-  .debate img {
-    width: 128px;
-    height: 128px;
-  }
-
-  .top-story-para-1 {
-    padding-left: 20px;
-    font-size: 33px;
-    font-weight: 500;
-  }
-
-  .cards img {
-    width: 55%;
-    height: 427px;
-    margin-right: 393px;
-    margin-left: 256px;
-  }
-
-  .cards-content {
-    width: 690px;
-    margin-left: 254px;
-    margin-right: 192px;
-  }
-
-  .newsletter-signup {
-    margin-right: 439px;
-    margin-left: 317px;
-    width: 680px;
-    padding: 20px;
-  }
-
-  .title p {
-    font: bold 18px/16px "Roboto Condensed", sans-serif;
-    margin-bottom: 21px;
-    text-transform: uppercase;
-    color: #000;
-  }
-
-  .email {
-    width: 589px;
-    height: 37px;
-    padding: 3px;
-    margin: 0 auto;
-  }
-
-  .btn {
-    background-color: #f72310;
-    color: white;
-    width: 240px;
-    height: 32px;
-    margin-top: 10px;
-    padding: 3px;
-  }
-
-  .btn-1 {
-    text-transform: uppercase;
-    border-radius: 24px;
-    color: #fff;
-    background-color: #f72310;
-    font-size: 30px;
-    line-height: 30px;
-    padding-left: 15px;
-    border: 0 none;
-    padding-right: 15px;
-    font-weight: 600;
-    padding-top: 10px;
-  }
-
-  .btn-sub {
-    color: #000;
-    width: 159px;
-    height: 44px;
-    margin-top: 5px;
-    padding: 3px;
-    border-radius: 24px;
-    font: bold 18px/24px "Roboto Condensed", sans-serif;
-    text-transform: uppercase;
-  }
-
-  .col-r {
-    height: 277px;
-    width: 1269px;
-  }
-
-  .col-r .news-letter-img {
-    width: 581px;
-    max-width: 626px;
-  }
-
-  .news-letter-info {
-    font-size: 20px;
-  }
-
-  .editorcontainer img {
-    width: 100%;
-    height: 300px;
-  }
-
-  .bottom-text-ed1 {
-    position: absolute;
-    font-size: 36px;
-    bottom: 156px;
-    left: 15px;
-    color: #f72210;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text {
-    position: absolute;
-    font-size: 45px;
-    bottom: 103px;
-    left: 0;
-    color: #f72210;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-1 {
-    position: absolute;
-    font-size: 45px;
-    bottom: -8px;
-    left: 0;
-    color: #f72210;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-2 {
-    position: absolute;
-    font-size: 45px;
-    bottom: 172px;
-    left: 0;
-    color: #f72210;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-3 {
-    position: absolute;
-    font-size: 45px;
-    bottom: 141px;
-    left: 0;
-    color: #f72210;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-4 {
-    position: absolute;
-    font-size: 45px;
-    bottom: 112px;
-    left: 0;
-    color: #f72210;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-5 {
-    position: absolute;
-    font-size: 45px;
-    bottom: 82px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-6 {
-    position: absolute;
-    font-size: 45px;
-    bottom: 82px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-7 {
-    position: absolute;
-    font-size: 45px;
-    bottom: 113px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-8 {
-    position: absolute;
-    font-size: 45px;
-    bottom: 99px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-9 {
-    position: absolute;
-    font-size: 45px;
-    bottom: 98px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .menu {
-    max-width: 100vw;
-  }
-
-  .footer-red svg {
-    width: 370px;
-    height: 71px;
-    fill: #f72210;
-    padding: 8px;
-  }
-
-  .copyright {
-    margin-top: 25px;
-    padding-left: 0;
-    font-size: 15px;
-    color: grey;
-  }
-
-  .socialicons li {
-    font-size: 52px;
-  }
-
-  .footer {
-    padding: 20px;
-    width: 1250px;
-    margin: 0 auto;
-  }
-
-  .editions {
-    font-size: 25px;
-    font-weight: 700;
-    color: grey;
-  }
-
-  .footer-links li {
-    font-size: 25px;
-    line-height: 35px;
-  }
-
-  .footer-links1 li {
-    font-size: 27px;
-  }
-}
-
-/*  Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-  .nav-red-right {
-    display: none;
-  }
-
-  p {
-    font-size: 44px;
-    display: block;
-    padding: 10px;
-  }
-
-  .nav-red-left {
-    width: 40%;
-  }
-
-  .btn {
-    font-size: 32px;
-    background-color: #f72310;
-    color: white;
-    width: 251px;
-    height: 83px;
-    margin-top: 14px;
-    padding: 3px;
-    margin-left: 138px;
-  }
-
-  .btn-1 {
-    display: none;
-  }
-
-  .btn-sub {
-    color: #000;
-    width: 304px;
-    height: 74px;
-    margin-top: 5px;
-    padding: 8px;
-    border-radius: 24px;
-    font: bold 43px/24px "Roboto Condensed", sans-serif;
-    text-transform: uppercase;
-  }
-
-  .main-nav-red {
-    background-color: #f72210;
-    padding: 82px;
-    align-content: center;
-    width: 80rem;
-  }
-
-  .more-stories img {
-    width: 2362px;
-    height: 387px;
-    margin-right: 20px;
-  }
-
-  .more-stories a {
-    font-size: 42px;
-    font-weight: 700;
-    display: block;
-  }
-
-  .the-debate {
-    display: list-item;
-  }
-
-  .debate img {
-    width: 294px;
-    height: 294px;
-    padding: 20px;
-  }
-
-  .cards img {
-    margin-left: 101px;
-    width: 1042px;
-    height: 581px;
-  }
-
-  .newsletter-signup {
-    height: 382px;
-    margin-right: 439px;
-    margin-left: 243px;
-    width: 680px;
-    padding: 20px;
-  }
-
-  .top-story-para-1 {
-    font-size: 39px;
-    font-weight: 600;
-  }
-
-  .debate p {
-    font-size: 38px;
-    font-weight: 600;
-    color: #888;
-  }
-
-  .newsletter-signup p {
-    font-size: 39px;
-    font-weight: 600;
-    color: #888;
-    line-height: 46px;
-  }
-
-  .n-icon {
-    flex: none;
-    display: block;
-    width: 63px;
-    height: 55px;
-    background:
-      url(https://g.newsweek.com/www/images/logo-n1.svg)
-      center/contain no-repeat #f72210;
-    margin-right: 10px;
-    margin-top: 31px;
-  }
-
-  .email {
-    width: 589px;
-    height: 65px;
-    padding: 14px;
-    margin: 0 auto;
-  }
-
-  .col-r {
-    height: 478px;
-    width: 1269px;
-  }
-
-  .copyright {
-    margin-top: 25px;
-    padding-left: 0;
-    font-size: 35px;
-    color: grey;
-  }
-
-  .footer-red svg {
-    width: 452px;
-    height: 71px;
-    fill: #f72210;
-    padding: 8px;
-  }
-
-  .bottom-text-ed1 {
-    position: absolute;
-    font-size: 66px;
-    bottom: 375px;
-    left: 15px;
-    color: #f72210;
-    padding: 8px 15px 9px;
-  }
-
-  .usimage {
-    width: 1500px;
-  }
-
-  .c-vs {
-    position: relative;
-    z-index: 1;
-    width: 92px;
-    height: 47px;
-    background-color: #000;
-    color: #d6d6d6;
-    border-radius: 50%;
-    font: bold 30px/32px "Roboto Condensed", sans-serif;
+  .subscribe-sec {
     text-align: center;
-    margin: 6px auto;
   }
 
-  .bottomnav {
-    display: none;
+  .abs-item-2 {
+    left: 30%;
   }
 
-  .nav-red-mid svg {
-    width: 410px;
-    height: 70px;
-    fill: #fff;
+  .relativetext {
+    text-align: center;
   }
 
-  .description {
-    font-size: 50px;
-    font-weight: bolder;
-  }
-
-  .featured-header {
-    color: rgba(3, 3, 3, 0.4);
-    font: bold 50px/16px "Roboto Condensed", sans-serif;
-    padding-bottom: 26px;
-    padding-top: 40px;
-  }
-
-  .bottom-text {
+  .top-head {
     position: absolute;
-    font-size: 55px;
-    bottom: 292px;
-    left: 0;
-    color: red;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-1 {
-    position: absolute;
-    font-size: 55px;
-    bottom: -7px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-2 {
-    position: absolute;
-    font-size: 67px;
-    bottom: 406px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-3 {
-    position: absolute;
-    font-size: 71px;
-    bottom: 436px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-4 {
-    position: absolute;
-    font-size: 66px;
-    bottom: 285px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-5 {
-    position: absolute;
-    font-size: 60px;
-    bottom: 284px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-6 {
-    position: absolute;
-    font-size: 60px;
-    bottom: 216px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-7 {
-    position: absolute;
-    font-size: 60px;
-    bottom: 219px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-8 {
-    position: absolute;
-    font-size: 60px;
-    bottom: 261px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-9 {
-    position: absolute;
-    font-size: 60px;
-    bottom: 262px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .top-story-header {
-    font-size: 50px;
-    font-weight: 800;
-    line-height: 16px;
-    padding: 50px;
-  }
-
-  .top-story-para {
-    font-size: 63px;
-    font-weight: 700;
-  }
-
-  .culture img {
-    width: 100%;
-  }
-
-  .menu-mobile {
-    width: 50px;
-    height: 50px;
-    background-color: #f72310;
-  }
-
-  .socialicons li {
-    font-size: 70px;
-  }
-
-  .editions {
-    font-size: 36px;
-    font-weight: 700;
-    color: grey;
-  }
-
-  .footer-links1 li {
-    font-size: 40px;
-  }
-
-  .footer-links li {
-    font-size: 36px;
-    display: contents;
-  }
-
-  .main-grid img {
-    width: 100%;
-    height: 618px;
-  }
-
-  .menu-mobile svg {
-    font-size: 100px;
-    color: #888;
-    position: absolute;
-    top: 0;
-    right: 30px;
-  }
-
-  .cards-content {
-    width: 994px;
-    margin-left: 127px;
-    margin-right: 192px;
-    margin-bottom: 54px;
-  }
-
-  .gridcontainer a {
-    color: #000;
-    text-decoration: none;
-    font: bold 45px/19px "Roboto Condensed", sans-serif;
-  }
-
-  .gridcontainer h3 {
-    font-size: 45px;
-    margin-top: 30px;
-  }
-
-  .gridimage {
-    width: 1451px;
-    height: 577px;
-    margin: 12px;
-  }
-
-  .gridimg {
-    width: 1500px;
-    height: 638px;
-    padding-top: 30px;
-  }
-
-  .red-cat {
-    height: 45px;
-    padding: 0 7px;
-    background-color: #f72210;
-    color: white;
-    margin-right: 7px;
-    padding-top: 10px;
-  }
-
-  .grid-dissent {
-    width: 1700px;
-    height: 622px;
-    padding-top: 27px;
-    padding-bottom: 38px;
-  }
-
-  .edt {
-    font-weight: 700;
-    font-size: 59px;
-  }
-
-  .category {
-    font: bold 46px/26px "Roboto Condensed", sans-serif;
-    color: #f72210;
-    text-transform: uppercase;
-    margin-top: 13px;
-    margin-bottom: 25px;
-  }
-
-  .bottom-text-grid-img {
-    position: absolute;
-    display: block;
-    font: bold 36px/33px "Roboto Condensed", sans-serif;
-    bottom: 43px;
-    left: 15px;
-    color: #f72210;
-    text-transform: uppercase;
-    padding: 0 10px;
-    background-color: rgba(255, 255, 255, 0.9);
-    z-index: 1;
-  }
-
-  .uscontainer a {
-    font-size: 59px;
-    color: black;
-    font-weight: 700;
-  }
-
-  .trump-image {
-    width: 445px;
-    height: 310px;
-  }
-
-  .leftcontainer img {
-    width: 1028px;
-  }
-
-  .worldcontainer a {
-    font-size: 47px;
-    color: black;
-    font-weight: 700;
-  }
-
-  .businesscontainer a {
-    font-size: 42px;
-    color: black;
-    font-weight: 700;
-  }
-
-  .culturecontainer a {
-    font-size: 53px;
-    color: black;
-    font-weight: 700;
-  }
-
-  .sportcontainer a {
-    font-size: 49px;
-    color: black;
-    font-weight: 700;
-  }
-
-  .techcontainer a {
-    font-size: 56px;
-    color: black;
-    font-weight: 700;
-  }
-
-  .main {
-    display: grid;
+    top: 200px;
+    z-index: 100;
+    left: 50px;
   }
 }
 
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-  .bottom-text-4 {
-    position: absolute;
-    font-size: 17px;
-    bottom: 93px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
+@media only screen and (max-width: 450px) {
+  .brand-m-s {
+    width: 85px;
+    height: 20px;
+    fill: white;
   }
 
-  .bottom-text-5 {
-    position: absolute;
-    font-size: 17px;
-    bottom: 94px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
+ .subscription-small {
+   font-size: 9px;
+   background-color: #ffe400;
+   border: none;
+   height: 25px;
+   border-radius: 20px;
+ }
 
-  .bottom-text {
-    position: absolute;
-    font-size: 21px;
-    bottom: 104px;
-    left: 0;
-    color: red;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-2 {
-    position: absolute;
-    font-size: 17px;
-    bottom: 153px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-3 {
-    position: absolute;
-    font-size: 17px;
-    bottom: 153px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-6 {
-    position: absolute;
-    font-size: 17px;
-    bottom: 70px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-7 {
-    position: absolute;
-    font-size: 17px;
-    bottom: 90px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-8 {
-    position: absolute;
-    font-size: 17px;
-    bottom: 123px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
-  }
-
-  .bottom-text-9 {
-    position: absolute;
-    font-size: 17px;
-    bottom: 100px;
-    left: 0;
-    color: blue;
-    padding: 8px 15px 9px;
+  .footer-links-1 {
+    font-size: 85%;
   }
 }
