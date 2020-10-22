@@ -19,6 +19,7 @@ See the source page below:
 - Fontawesome library
 - Iconify library
 - Bootstrap
+
 ## Live Demo
 
 [Live Demo Link](https://davidosky007.github.io/News-Week-Clone/)
@@ -44,14 +45,13 @@ To get a local copy up and running follow these simple example steps.
 
 - Open index.html file in any modern browser
 
-
 ## Authors
 
 👤 **David Bassey**
 
 - GitHub: [@davidosky007](https://github.com/davidosky007)
 - Twitter: [@davidosky2](https://twitter.com/Davidosky2)
-- LinkedIn:  [David Bassey](https://www.linkedin.com/in/david-bassey-2b9671199/)
+- LinkedIn: [David Bassey](https://www.linkedin.com/in/david-bassey-2b9671199/)
 
 👤 **Iris Enaelle Kineza**
 
