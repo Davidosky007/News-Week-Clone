@@ -1,9 +1,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
-# # News-Week-Clone
+ # News-Week-Clone
 
 > This project is part of Microverse HTML/CSS curriculum
 
@@ -73,7 +71,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
 - Thanks to Colorzilla by making designing easier
 - Thanks to stand-up team for raising issues and giving constructive critics out
 - Thanks to image downloader

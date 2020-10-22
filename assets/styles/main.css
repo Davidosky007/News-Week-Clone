@@ -21,7 +21,7 @@ img {
 /* MAIN STYLING */
 
 .container-main {
-  width: 96%;
+  width: 97%;
 }
 
 .bg-color {
@@ -45,10 +45,9 @@ img {
 
 .brand-m-s {
   width: 132px;
-  height: 20px;
+  height: 35px;
   fill: white;
 }
-
 .login {
   font-size: 18px;
   background: none;
@@ -64,14 +63,15 @@ img {
 }
 
 .subscription-small {
-  font-size: 14px;
+  font-size: 17px;
   background-color: #ffe400;
   border: none;
-  height: 25px;
+  height: 31px;
   border-radius: 20px;
 }
 
 .bar {
+  font-size: 27px;
   transform: scale(1.3);
 }
 
@@ -118,7 +118,7 @@ img {
 }
 
 .news-signup {
-  background-color: #e2e0e0 !important;
+  background-color: #e2e0e0;
 }
 
 .title {
@@ -277,6 +277,11 @@ img {
     width: 50%;
     margin: auto;
   }
+
+  .subscribe-3 {
+    height: 47px;
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -297,6 +302,11 @@ img {
     text-align: center;
   }
 
+  .bar{
+        font-size: 27px;
+        padding: 4px;
+  }
+
   .top-head {
     position: absolute;
     top: 200px;
@@ -306,17 +316,26 @@ img {
 }
 
 @media only screen and (max-width: 450px) {
-  .brand-m-s {
-    width: 85px;
-    height: 20px;
-    fill: white;
-  }
+ .brand-m-s {
+   width: 84px;
+   height: 34px;
+   fill: white;
+ }
+
+ .bar {
+   font-size: 24px;
+   padding: 4px;
+ }
+
+.longimg {
+  width: 100%;
+}
 
   .subscription-small {
-    font-size: 9px;
+    font-size: 12px;
     background-color: #ffe400;
     border: none;
-    height: 25px;
+    height: 26px;
     border-radius: 20px;
   }
 
