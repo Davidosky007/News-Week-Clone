@@ -1,0 +1,2303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="David and Iris" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <meta name="keyword" content="The Newsweek" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png"
+    />
+    <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  </head>
+
+  <body>
+    <div class="bg-white m-auto container-main">
+      <header>
+        <!--top navigation bar with logo-->
+        <nav
+          class="navbartop bg-color d-lg-flex d-none p-3 justify-content-around position-relative"
+        >
+          <div class="weather flex-fill">
+            <div class="headcont d-flex">
+              <img
+                src="./assets/images/weather.png"
+                alt="weather"
+                class="weather-logo"
+              />
+              <h4 class="text-white ml-3">27° Lagos NG</h4>
+            </div>
+            <p class="text-white">Wed, Oct 14, 2020</p>
+            <div class="redclip bg-color position-absolute"></div>
+          </div>
+
+          <div class="navlogo flex-fill justify-self-center">
+            <a href="#">
+              <svg
+                class="brand"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 395.6 60"
+                style="enable-background: new 0 0 395.6 60"
+                xml:space="preserve"
+              >
+                <g>
+                  <path
+                    class="st0"
+                    d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+                  ></path>
+                </g></svg
+            ></a>
+          </div>
+
+          <div
+            class="primary-btn d-flex justify-content-end align-items-center"
+          >
+            <button class="login text-white roboto">Login</button>
+            <button class="subscription px-4 py-1 ml-3 roboto">
+              Subscribe <i class="fas fa-angle-right"></i>
+            </button>
+          </div>
+        </nav>
+
+        <!--navigation bar for the medium and small-->
+        <nav
+          class="navbartop bg-color d-lg-none d-flex p-2 justify-content-between position-relative"
+        >
+          <div class="navlogo flex-fill justify-self-center">
+            <a href="#">
+              <svg
+                class="brand-m-s"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 395.6 60"
+                style="enable-background: new 0 0 395.6 60"
+                xml:space="preserve"
+              >
+                <g>
+                  <path
+                    class="st0"
+                    d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+                  ></path>
+                </g></svg
+            ></a>
+          </div>
+
+          <div
+            class="primary-btn d-flex justify-content-end align-items-center"
+          >
+            <i
+              class="fas fa-user-alt person text-white ml-3 d-block d-md-none"
+            ></i>
+            <button class="login text-white roboto d-none d-md-block">
+              Login
+            </button>
+            <button class="subscription-small px-4 py-1 ml-3 roboto">
+              Subscribe <i class="fas fa-angle-right d-none"></i>
+            </button>
+            <i class="fas fa-bars ml-3 bar mr-3 text-white"></i>
+          </div>
+        </nav>
+
+        <!--Middle navigation bar with all the links-->
+        <nav class="navbarmiddle bg-light border-bottom d-none d-lg-block">
+          <ul
+            class="textbar-bold roboto d-flex list-unstyled justify-content-around m-0 p-2"
+          >
+            <li class="textbar-item border-right pr-3">
+              <a href="#" class="text-dark">U.S.</a>
+            </li>
+            <li class="textbar-item border-right pr-3">
+              <a href="#" class="text-dark">World</a>
+            </li>
+            <li class="textbar-item border-right pr-3">
+              <a href="#" class="text-dark">Business</a>
+            </li>
+            <li class="textbar-item border-right pr-3">
+              <a href="#" class="text-dark">Tech &amp; Science</a>
+            </li>
+            <li class="textbar-item border-right pr-3">
+              <a href="#" class="text-dark">Culture</a>
+            </li>
+            <li class="textbar-item border-right pr-3">
+              <a href="#" class="text-dark">Newsgeek</a>
+            </li>
+            <li class="textbar-item border-right pr-3">
+              <a href="#" class="text-dark">Sports</a>
+            </li>
+            <li class="textbar-item border-right pr-3">
+              <a href="#" class="text-dark">Health</a>
+            </li>
+            <li class="textbar-item border-right pr-3">
+              <a href="#" class="text-dark">The Debate</a>
+            </li>
+            <li class="textbar-item border-right pr-3">
+              <a href="#" class="text-dark">Vantage</a>
+            </li>
+            <li class="textbar-item border-right pr-3">
+              <a href="#" class="text-dark">Weather</a>
+            </li>
+            <li class="textbat-item border-right pr-3">
+              <input
+                type="text"
+                placeholder="Search"
+                class="border-0 w-50 ml-2 text-center"
+              /><i class="fas fa-search"></i>
+            </li>
+          </ul>
+        </nav>
+
+        <!--Bottom navigation bar with all the side link-->
+        <nav class="navbarbottom pt-3 border-bottom d-none d-lg-block">
+          <ul
+            class="textbar-bold roboto list-unstyled d-flex justify-content-start"
+          >
+            <li class="textbar-item text-dark pr-2 pl-2 pl-2">Trending</li>
+            <li class="textbar-item">
+              <a href="#" class="text-dark pr-2 pl-2 pl-2">Donald Trump</a>
+            </li>
+            <li class="textbar-item">
+              <a href="#" class="text-secondary pr-2 pl-2 pl-2">Joe Biden</a>
+            </li>
+            <li class="textbar-item">
+              <a href="#" class="text-secondary pr-2 pl-2 pl-2">China</a>
+            </li>
+            <li class="textbar-item">
+              <a href="#" class="text-secondary pr-2 pl-2 pl-2">Coronavirus</a>
+            </li>
+            <li class="textbar-item">
+              <a href="#" class="text-secondary pr-2 pl-2 pl-2"
+                >2020 Election</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!--MAIN SECTION-->
+
+      <main class="main px-2">
+        <div class="displaycontainer row position-relative">
+          <div class="featured-stories col-lg-3 col-md-6 overflow-hidden">
+            <h3 class="title roboto mt-3 text-secondary">FEATURED STORIES</h3>
+
+            <div class="featured-item">
+              <article class="featured-article">
+                <div class="itemimg position-relative">
+                  <h2 class="roboto tag position-absolute bg-light px-4 py-2">
+                    U.S
+                  </h2>
+                  <img
+                    src="assets/images/trump.jpg"
+                    alt="trump"
+                    class="w-100"
+                  />
+                </div>
+                <h3>
+                  <a href="#" class="roboto heading1 text-justify text-dark"
+                    >What Donald Trump Said at First Rally Since COVID
+                    Recovery</a
+                  >
+                </h3>
+                <div class="summary">
+                  <p>
+                    The coronavirus crisis was a focus for the president in
+                    Florida, who defended his actions amid the pandemic.
+                  </p>
+                </div>
+              </article>
+
+              <article class="featured-article">
+                <div class="itemimg position-relative">
+                  <h2 class="roboto tag position-absolute bg-light px-4 py-2">
+                    SPONSORED INSIGHT
+                  </h2>
+                  <img
+                    src="assets/images/china-trade-manufacturing.jpg"
+                    alt="china"
+                    class="w-100"
+                  />
+                </div>
+                <h3>
+                  <a
+                    href="/trump-biden-nearly-tied-presidency-new-emerson-poll-1528785"
+                    class="roboto heading1 text-justify text-dark"
+                    >U.S.-China Trade Soars, Despite Trump Tariffs</a
+                  >
+                </h3>
+                <div class="summary">
+                  <p>
+                    Exporters reaped the benefits of record demand for masks and
+                    medical supplies and received a boost from China's early
+                    reopening of its economy.
+                  </p>
+                </div>
+              </article>
+
+              <article class="featured-article">
+                <div class="itemimg position-relative">
+                  <h2 class="roboto tag position-absolute bg-light px-4 py-2">
+                    RANKINGS
+                  </h2>
+                  <img
+                    src="assets/images/donald-trump-florida-getty.jpg"
+                    alt="florida"
+                    class="w-100"
+                  />
+                </div>
+                <h3>
+                  <a
+                    href="/trump-biden-nearly-tied-presidency-new-emerson-poll-1528785"
+                    class="roboto heading1 text-justify text-dark"
+                    >Fact-check: Does the WHO Now Agree With Donald Trump on
+                    Ending Lockdowns?</a
+                  >
+                </h3>
+                <div class="summary">
+                  <p>
+                    WHO officials have said throughout the pandemic that
+                    lockdowns should not be the only approach taken by countries
+                    to prevent the spread of the coronavirus.
+                  </p>
+                </div>
+              </article>
+
+              <article class="featured-article">
+                <div class="itemimg position-relative">
+                  <h2 class="roboto tag position-absolute bg-light px-4 py-2">
+                    Politics
+                  </h2>
+                  <img
+                    src="assets/images/apple-watch.jpg"
+                    alt="apple watch"
+                    class="w-100"
+                  />
+                </div>
+                <h3>
+                  <a
+                    href="/trump-biden-nearly-tied-presidency-new-emerson-poll-1528785"
+                    class="roboto heading1 text-justify text-dark"
+                    >Trump and Biden Nearly Tied for Presidency in New Emerson
+                    Poll</a
+                  >
+                </h3>
+                <div class="summary">
+                  <p>
+                    Voters who responded to the poll gave Biden 49 percent of
+                    their support, with President Trump two percentage points
+                    behind with 47 percent of voter support.
+                  </p>
+                </div>
+              </article>
+
+              <article class="featured-article">
+                <div class="itemimg position-relative">
+                  <h2 class="roboto tag position-absolute bg-light px-4 py-2">
+                    Politics
+                  </h2>
+                  <img src="assets/images/biden.jpg" alt="" class="w-100" />
+                </div>
+                <h3>
+                  <a
+                    href="/trump-biden-nearly-tied-presidency-new-emerson-poll-1528785"
+                    class="roboto heading1 text-justify text-dark"
+                    >Trump and Biden Nearly Tied for Presidency in New Emerson
+                    Poll</a
+                  >
+                </h3>
+                <div class="summary">
+                  <p>
+                    Voters who responded to the poll gave Biden 49 percent of
+                    their support, with President Trump two percentage points
+                    behind with 47 percent of voter support.
+                  </p>
+                </div>
+              </article>
+
+              <article class="featured-article">
+                <div class="itemimg position-relative">
+                  <h2 class="roboto tag position-absolute bg-light px-4 py-2">
+                    Politics
+                  </h2>
+                  <img
+                    src="assets/images/holy-angel-university.jpg"
+                    alt="university"
+                    class="w-100"
+                  />
+                </div>
+                <h3>
+                  <a
+                    href="/trump-biden-nearly-tied-presidency-new-emerson-poll-1528785"
+                    class="roboto heading1 text-justify text-dark"
+                    >Trump and Biden Nearly Tied for Presidency in New Emerson
+                    Poll</a
+                  >
+                </h3>
+                <div class="summary">
+                  <p>
+                    Voters who responded to the poll gave Biden 49 percent of
+                    their support, with President Trump two percentage points
+                    behind with 47 percent of voter support.
+                  </p>
+                </div>
+              </article>
+
+              <article class="featured-article">
+                <div class="itemimg position-relative">
+                  <h2 class="roboto tag position-absolute bg-light px-4 py-2">
+                    Politics
+                  </h2>
+                  <img
+                    src="assets/images/americas-best-banks-2021.png"
+                    alt="banks"
+                    class="w-100"
+                  />
+                </div>
+                <h3>
+                  <a
+                    href="/trump-biden-nearly-tied-presidency-new-emerson-poll-1528785"
+                    class="roboto heading1 text-justify text-dark"
+                    >Trump and Biden Nearly Tied for Presidency in New Emerson
+                    Poll</a
+                  >
+                </h3>
+                <div class="summary">
+                  <p>
+                    Voters who responded to the poll gave Biden 49 percent of
+                    their support, with President Trump two percentage points
+                    behind with 47 percent of voter support.
+                  </p>
+                </div>
+              </article>
+
+              <article class="featured-article">
+                <div class="itemimg position-relative">
+                  <h2 class="roboto tag position-absolute bg-light px-4 py-2">
+                    Politics
+                  </h2>
+                  <img
+                    src="assets/images/americas-best-physical-rehabilitation-centers-2020.png"
+                    alt="americas-best-physical-rehabilitation-centers-2020"
+                    class="w-100"
+                  />
+                </div>
+                <h3>
+                  <a
+                    href="/trump-biden-nearly-tied-presidency-new-emerson-poll-1528785"
+                    class="roboto heading1 text-justify text-dark"
+                    >Trump and Biden Nearly Tied for Presidency in New Emerson
+                    Poll</a
+                  >
+                </h3>
+                <div class="summary">
+                  <p>
+                    Voters who responded to the poll gave Biden 49 percent of
+                    their support, with President Trump two percentage points
+                    behind with 47 percent of voter support.
+                  </p>
+                </div>
+              </article>
+
+              <article class="featured-article">
+                <div class="itemimg position-relative">
+                  <h2 class="roboto tag position-absolute bg-light px-4 py-2">
+                    Politics
+                  </h2>
+                  <img
+                    src="assets/images/best-online-shops-2021.png"
+                    alt="shops"
+                    class="w-100"
+                  />
+                </div>
+                <h3>
+                  <a
+                    href="/trump-biden-nearly-tied-presidency-new-emerson-poll-1528785"
+                    class="roboto heading1 text-justify text-dark"
+                    >America’s Best Realtors 2020</a
+                  >
+                </h3>
+                <div class="summary">
+                  <p>
+                    Newsweek partnered with REAL Trends to sort through the data
+                    and provide you with a list of America's Best Real Estate
+                    Professionals
+                  </p>
+                </div>
+              </article>
+
+              <article class="featured-article">
+                <div class="itemimg position-relative">
+                  <h2 class="roboto tag position-absolute bg-light px-4 py-2">
+                    Politics
+                  </h2>
+                  <img
+                    src="assets/images/worlds-best-specialized-hospitals-2021.png"
+                    alt="worlds-best-specialized-hospitals-2021"
+                    class="w-100"
+                  />
+                </div>
+                <h3>
+                  <a
+                    href="/trump-biden-nearly-tied-presidency-new-emerson-poll-1528785"
+                    class="roboto heading1 text-justify text-dark"
+                    >Newsweek AMPLIFY Launches Strategic Partnership Solutions
+                    for Brands</a
+                  >
+                </h3>
+                <div class="summary">
+                  <p class="text-justify">
+                    Newsweek AMPLIFY, the company's performance marketing
+                    business unit, has launched a new program to empower digital
+                    brands with comprehensive content marketing and advertising
+                    strategies.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="top-stories col-lg-5 col-md-6 position-relative">
+            <h3 class="title roboto mt-3 text-secondary">TOP STORIES</h3>
+
+            <div class="itemimg position-relative">
+              <h2 class="tag position-absolute bg-light px-4 py-2">U.S</h2>
+              <img
+                src="assets/images/biden-latino.jpg"
+                class="w-100"
+                alt="latino"
+              />
+            </div>
+            <h3>
+              <a
+                href="/trump-biden-nearly-tied-presidency-new-emerson-poll-1528785"
+                class="text-dark"
+                >Trump and Biden Nearly Tied for Presidency in New Emerson
+                Poll</a
+              >
+            </h3>
+            <div class="summary">
+              <p>
+                Voters who responded to the poll gave Biden 49 percent of their
+                support, with President Trump two percentage points behind with
+                47 percent of voter support.
+              </p>
+            </div>
+
+            <div class="small-grid">
+              <h4 class="roboto title text-secondary">My Turn</h4>
+              <div class="small-grid row">
+                <div class="col-12 col-sm-4">
+                  <img
+                    src="assets/images/love-romance-italy-romeo-juliet-pandemic.jpg"
+                    alt="img1"
+                    class="smallimg w-100"
+                  />
+                  <div class="small-title">
+                    <a
+                      href="/ive-made-documentary-about-private-life-queen-england-1528275"
+                      class="roboto text-secondary title-small"
+                      >'I've Made a Documentary About Queen Elizabeth II's
+                      Private Life'</a
+                    >
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-4">
+                  <img
+                    src="assets/images/world-war-ii-black-women-african-americans.jpg"
+                    alt="img1"
+                    class="smallimg w-100"
+                  />
+                  <div class="small-title">
+                    <a
+                      href="/ive-made-documentary-about-private-life-queen-england-1528275"
+                      class="roboto text-secondary title-small"
+                      >'I've Made a Documentary About Queen Elizabeth II's
+                      Private Life'</a
+                    >
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-4">
+                  <img
+                    src="assets/images/divorce-love-marriage-relationships-australia.jpg"
+                    alt="img1"
+                    class="smallimg w-100"
+                  />
+                  <div class="small-title">
+                    <a
+                      href="/ive-made-documentary-about-private-life-queen-england-1528275"
+                      class="roboto text-secondary title-small"
+                      >'I've Made a Documentary About Queen Elizabeth II's
+                      Private Life'</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="small-grid mt-4">
+              <h4 class="roboto title text-secondary">Culture and Travel</h4>
+              <div class="small-grid row">
+                <div class="col-12 col-sm-4">
+                  <img
+                    src="assets/images/singapore-airlines.jpg"
+                    alt="img1"
+                    class="smallimg w-100"
+                  />
+                  <div class="small-title">
+                    <a
+                      href="/ive-made-documentary-about-private-life-queen-england-1528275"
+                      class="roboto text-secondary title-small"
+                      >'I've Made a Documentary About Queen Elizabeth II's
+                      Private Life'</a
+                    >
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-4">
+                  <img
+                    src="assets/images/100-best-rock-albums-all-time-according-critics.png"
+                    alt="img1"
+                    class="smallimg w-100"
+                  />
+                  <div class="small-title">
+                    <a
+                      href="/ive-made-documentary-about-private-life-queen-england-1528275"
+                      class="roboto text-secondary title-small"
+                      >'I've Made a Documentary About Queen Elizabeth II's
+                      Private Life'</a
+                    >
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-4">
+                  <img
+                    src="assets/images/cul-map-wes-anderson-white-cyclon-banner.jpg"
+                    alt="img1"
+                    class="smallimg w-100"
+                  />
+                  <div class="small-title">
+                    <a
+                      href="/ive-made-documentary-about-private-life-queen-england-1528275"
+                      class="roboto text-secondary title-small"
+                      >'I've Made a Documentary About Queen Elizabeth II's
+                      Private Life'</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="more-stories mt-4 position-sticky sticky-top">
+              <h3 class="title roboto mt-3 text-secondary">MORE STORIES</h3>
+              <hr />
+
+              <div class="flex-item d-flex align-items-center">
+                <img
+                  src="assets/images/amy-coney-barrett.jpg"
+                  alt="coney"
+                  class="fleximg mr-2"
+                />
+                <div class="text-flex">
+                  <h4>
+                    <a
+                      href="/law-order-joe-biden-donald-trump-both-claim-they-will-keep-americans-safe-1528747"
+                      class="flex-title text-dark roboto"
+                      >Law and Order? Biden, Trump Both Claim They Will Keep
+                      Americans Safe</a
+                    >
+                  </h4>
+                  <div class="flex-description">
+                    Amid fiery protests across the country, both Donald Trump
+                    and Joe Biden are addressing the "law and order" issue -
+                    with very different messages.
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+
+              <div class="flex-item d-flex align-items-center">
+                <img
+                  src="assets/images/gov-ron-desantis-trump-event.jpg"
+                  alt="trump"
+                  class="fleximg mr-2"
+                />
+                <div class="text-flex">
+                  <h4>
+                    <a
+                      href="/law-order-joe-biden-donald-trump-both-claim-they-will-keep-americans-safe-1528747"
+                      class="flex-title text-dark roboto"
+                      >Law and Order? Biden, Trump Both Claim They Will Keep
+                      Americans Safe</a
+                    >
+                  </h4>
+                  <div class="flex-description">
+                    Amid fiery protests across the country, both Donald Trump
+                    and Joe Biden are addressing the "law and order" issue -
+                    with very different messages.
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+
+              <div class="flex-item d-flex align-items-center">
+                <img
+                  src="assets/images/kkk.jpg"
+                  alt="kkk"
+                  class="fleximg mr-2"
+                />
+                <div class="text-flex">
+                  <h4>
+                    <a
+                      href="/law-order-joe-biden-donald-trump-both-claim-they-will-keep-americans-safe-1528747"
+                      class="flex-title text-dark roboto"
+                      >Law and Order? Biden, Trump Both Claim They Will Keep
+                      Americans Safe</a
+                    >
+                  </h4>
+                  <div class="flex-description">
+                    Amid fiery protests across the country, both Donald Trump
+                    and Joe Biden are addressing the "law and order" issue -
+                    with very different messages.
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+
+              <div class="flex-item d-flex align-items-center">
+                <img
+                  src="assets/images/president-donald-trump.jpg"
+                  alt="donald-trump"
+                  class="fleximg mr-2"
+                />
+                <div class="text-flex">
+                  <h4>
+                    <a
+                      href="/law-order-joe-biden-donald-trump-both-claim-they-will-keep-americans-safe-1528747"
+                      class="flex-title text-dark roboto"
+                      >Law and Order? Biden, Trump Both Claim They Will Keep
+                      Americans Safe</a
+                    >
+                  </h4>
+                  <div class="flex-description">
+                    Amid fiery protests across the country, both Donald Trump
+                    and Joe Biden are addressing the "law and order" issue -
+                    with very different messages.
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+
+              <div class="flex-item d-flex align-items-center">
+                <img
+                  src="assets/images/maga-hat.jpg"
+                  alt="maga"
+                  class="fleximg mr-2"
+                />
+                <div class="text-flex">
+                  <h4>
+                    <a
+                      href="/law-order-joe-biden-donald-trump-both-claim-they-will-keep-americans-safe-1528747"
+                      class="flex-title text-dark roboto"
+                      >Law and Order? Biden, Trump Both Claim They Will Keep
+                      Americans Safe</a
+                    >
+                  </h4>
+                  <div class="flex-description">
+                    Amid fiery protests across the country, both Donald Trump
+                    and Joe Biden are addressing the "law and order" issue -
+                    with very different messages.
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+
+              <div class="flex-item d-flex align-items-center">
+                <img
+                  src="assets/images/donald-trump.jpg"
+                  alt="trump"
+                  class="fleximg mr-2"
+                />
+                <div class="text-flex">
+                  <h4>
+                    <a
+                      href="/law-order-joe-biden-donald-trump-both-claim-they-will-keep-americans-safe-1528747"
+                      class="flex-title text-dark roboto"
+                      >Law and Order? Biden, Trump Both Claim They Will Keep
+                      Americans Safe</a
+                    >
+                  </h4>
+                  <div class="flex-description">
+                    Amid fiery protests across the country, both Donald Trump
+                    and Joe Biden are addressing the "law and order" issue -
+                    with very different messages.
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+
+              <div class="flex-item d-flex align-items-center">
+                <img
+                  src="assets/images/early-voting-georgia.jpg"
+                  alt="voting"
+                  class="fleximg mr-2"
+                />
+                <div class="text-flex">
+                  <h4>
+                    <a
+                      href="/law-order-joe-biden-donald-trump-both-claim-they-will-keep-americans-safe-1528747"
+                      class="flex-title text-dark roboto"
+                      >Law and Order? Biden, Trump Both Claim They Will Keep
+                      Americans Safe</a
+                    >
+                  </h4>
+                  <div class="flex-description">
+                    Amid fiery protests across the country, both Donald Trump
+                    and Joe Biden are addressing the "law and order" issue -
+                    with very different messages.
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+
+              <div class="flex-item d-flex align-items-center">
+                <img
+                  src="assets/images/sanders-harris.jpg"
+                  alt="sanders"
+                  class="fleximg mr-2"
+                />
+                <div class="text-flex">
+                  <h4>
+                    <a
+                      href="/law-order-joe-biden-donald-trump-both-claim-they-will-keep-americans-safe-1528747"
+                      class="flex-title text-dark roboto"
+                      >Law and Order? Biden, Trump Both Claim They Will Keep
+                      Americans Safe</a
+                    >
+                  </h4>
+                  <div class="flex-description">
+                    Amid fiery protests across the country, both Donald Trump
+                    and Joe Biden are addressing the "law and order" issue -
+                    with very different messages.
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+
+              <div class="flex-item d-flex align-items-center">
+                <img
+                  src="assets/images/iran-supreme-leader-khamenei-military-cadets.jpg"
+                  alt="iran"
+                  class="fleximg mr-2"
+                />
+                <div class="text-flex">
+                  <h4>
+                    <a
+                      href="/law-order-joe-biden-donald-trump-both-claim-they-will-keep-americans-safe-1528747"
+                      class="flex-title text-dark roboto"
+                      >Law and Order? Biden, Trump Both Claim They Will Keep
+                      Americans Safe</a
+                    >
+                  </h4>
+                  <div class="flex-description">
+                    Amid fiery protests across the country, both Donald Trump
+                    and Joe Biden are addressing the "law and order" issue -
+                    with very different messages.
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+
+              <div class="flex-item d-flex align-items-center">
+                <img
+                  src="assets/images/kim-jong-un-north-korea-cry-speech.jpg"
+                  alt="north korea"
+                  class="fleximg mr-2"
+                />
+                <div class="text-flex">
+                  <h4>
+                    <a
+                      href="/law-order-joe-biden-donald-trump-both-claim-they-will-keep-americans-safe-1528747"
+                      class="flex-title text-dark roboto"
+                      >Law and Order? Biden, Trump Both Claim They Will Keep
+                      Americans Safe</a
+                    >
+                  </h4>
+                  <div class="flex-description">
+                    Amid fiery protests across the country, both Donald Trump
+                    and Joe Biden are addressing the "law and order" issue -
+                    with very different messages.
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+
+              <div class="flex-item d-flex align-items-center">
+                <img
+                  src="assets/images/don-jr.jpg"
+                  alt="donald-trump-jr-lincoln-project-ad-biden"
+                  class="fleximg mr-2"
+                />
+                <div class="text-flex">
+                  <h4>
+                    <a
+                      href="/law-order-joe-biden-donald-trump-both-claim-they-will-keep-americans-safe-1528747"
+                      class="flex-title text-dark roboto"
+                      >Law and Order? Biden, Trump Both Claim They Will Keep
+                      Americans Safe</a
+                    >
+                  </h4>
+                  <div class="flex-description">
+                    Amid fiery protests across the country, both Donald Trump
+                    and Joe Biden are addressing the "law and order" issue -
+                    with very different messages.
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+
+              <div class="flex-item d-flex align-items-center">
+                <img
+                  src="assets/images/michigan.jpg"
+                  alt="michigan"
+                  class="fleximg mr-2"
+                />
+                <div class="text-flex">
+                  <h4>
+                    <a
+                      href="/law-order-joe-biden-donald-trump-both-claim-they-will-keep-americans-safe-1528747"
+                      class="flex-title text-dark roboto"
+                      >Law and Order? Biden, Trump Both Claim They Will Keep
+                      Americans Safe</a
+                    >
+                  </h4>
+                  <div class="flex-description">
+                    Amid fiery protests across the country, both Donald Trump
+                    and Joe Biden are addressing the "law and order" issue -
+                    with very different messages.
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+
+              <div class="flex-item d-flex align-items-center">
+                <img
+                  src="assets/images/sanders-harris.jpg"
+                  alt="sanders"
+                  class="fleximg mr-2"
+                />
+                <div class="text-flex">
+                  <h4>
+                    <a
+                      href="/law-order-joe-biden-donald-trump-both-claim-they-will-keep-americans-safe-1528747"
+                      class="flex-title text-dark roboto"
+                      >Law and Order? Biden, Trump Both Claim They Will Keep
+                      Americans Safe</a
+                    >
+                  </h4>
+                  <div class="flex-description">
+                    Amid fiery protests across the country, both Donald Trump
+                    and Joe Biden are addressing the "law and order" issue -
+                    with very different messages.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="the-debate col-lg-4 col-12 px-2 px-3">
+            <h3 class="title roboto mt-3 text-secondary">The debate</h3>
+
+            <hr class="heavy" />
+
+            <div class="flex-item d-md-flex d-block align-items-center">
+              <img
+                src="assets/images/claire-finkelstein-richard-w-painter-2.png"
+                alt="claire"
+                class="circimg mr-2"
+              />
+              <div class="text-flex">
+                <div class="text-title">
+                  <a href="#" class="roboto text-dark"
+                    >Avoid War, Defend America, Recognize Taiwan</a
+                  >
+                </div>
+                <div class="byline roboto">
+                  <span class="light">By</span> Gordon G. Chang
+                </div>
+              </div>
+            </div>
+
+            <div class="heavy2 position-relative mt-5 mb-5 ml-2">
+              <div class="bcircle position-absolute text-white p-2">VS</div>
+            </div>
+
+            <div
+              class="flex-item d-flex align-items-center justify-content-end"
+            >
+              <div class="text-flex">
+                <div class="text-title">
+                  <a href="#" class="roboto text-dark"
+                    >Avoid War, Defend America, Recognize Taiwan</a
+                  >
+                </div>
+                <div class="byline roboto">
+                  <span class="light">By</span> Gordon G. Chang
+                </div>
+              </div>
+              <img
+                src="assets/images/andrew-c-mccarthy.png"
+                alt="andrew-c-mccarthy"
+                class="circimg mr-2"
+              />
+            </div>
+
+            <div class="opinion mt-4 mb-5 p-2">
+              <h3 class="title roboto mt-3 text-secondary">Opinion</h3>
+
+              <div class="opinion-container">
+                <div class="flex-item d-flex align-items-center">
+                  <img
+                    src="assets/images/robert-reich.png"
+                    alt="robert-reich"
+                    class="circimg mr-4 mb-4"
+                  />
+                  <div class="text-flex">
+                    <div class="text-title">
+                      <a href="#" class="roboto text-dark"
+                        >Avoid War, Defend America, Recognize Taiwan</a
+                      >
+                    </div>
+                    <div class="byline roboto">
+                      <span class="light">By</span> Gordon G. Chang
+                    </div>
+                  </div>
+                </div>
+
+                <hr />
+
+                <div class="flex-item d-flex align-items-center">
+                  <img
+                    src="assets/images/john-yoo-james-phillips.png"
+                    alt="john"
+                    class="circimg mr-4 mb-4"
+                  />
+                  <div class="text-flex">
+                    <div class="text-title">
+                      <a href="#" class="roboto text-dark"
+                        >Avoid War, Defend America, Recognize Taiwan</a
+                      >
+                    </div>
+                    <div class="byline roboto">
+                      <span class="light">By</span> Gordon G. Chang
+                    </div>
+                  </div>
+                </div>
+
+                <hr />
+
+                <div class="flex-item d-flex align-items-center">
+                  <img
+                    src="assets/images/mark-davis.png"
+                    alt="mark"
+                    class="circimg mr-4 mb-4"
+                  />
+                  <div class="text-flex">
+                    <div class="text-title">
+                      <a href="#" class="roboto text-dark"
+                        >Avoid War, Defend America, Recognize Taiwan</a
+                      >
+                    </div>
+                    <div class="byline roboto">
+                      <span class="light">By</span> Gordon G. Chang
+                    </div>
+                  </div>
+                </div>
+
+                <hr />
+
+                <div class="flex-item d-flex align-items-center">
+                  <img
+                    src="assets/images/abraham-cooper-yitzchok-adlerstein.png"
+                    alt="abraham-cooper-yitzchok-adlerstein"
+                    class="circimg mr-4 mb-4"
+                  />
+                  <div class="text-flex">
+                    <div class="text-title">
+                      <a href="#" class="roboto text-dark"
+                        >Avoid War, Defend America, Recognize Taiwan</a
+                      >
+                    </div>
+                    <div class="byline roboto">
+                      <span class="light">By</span> Gordon G. Chang
+                    </div>
+                  </div>
+                </div>
+
+                <hr />
+
+                <div class="flex-item d-flex align-items-center">
+                  <img
+                    src="assets/images/kelly-shackelford.png"
+                    alt="kelly-shackelford"
+                    class="circimg mr-4 mb-4"
+                  />
+                  <div class="text-flex">
+                    <div class="text-title">
+                      <a href="#" class="roboto text-dark"
+                        >Avoid War, Defend America, Recognize Taiwan</a
+                      >
+                    </div>
+                    <div class="byline roboto">
+                      <span class="light">By</span> Gordon G. Chang
+                    </div>
+                  </div>
+                </div>
+
+                <hr />
+
+                <div class="flex-item d-flex align-items-center">
+                  <img
+                    src="assets/images/john-yoo-james-phillips.png"
+                    alt="john"
+                    class="circimg mr-4 mb-4"
+                  />
+                  <div class="text-flex">
+                    <div class="text-title">
+                      <a href="#" class="roboto text-dark"
+                        >Avoid War, Defend America, Recognize Taiwan</a
+                      >
+                    </div>
+                    <div class="byline roboto">
+                      <span class="light">By</span> Gordon G. Chang
+                    </div>
+                  </div>
+                </div>
+
+                <hr />
+
+                <div class="flex-item d-flex align-items-center">
+                  <img
+                    src="assets/images/hank-gilman.png"
+                    alt="hank"
+                    class="circimg mr-4 mb-4"
+                  />
+                  <div class="text-flex">
+                    <div class="text-title">
+                      <a href="#" class="roboto text-dark"
+                        >Avoid War, Defend America, Recognize Taiwan</a
+                      >
+                    </div>
+                    <div class="byline roboto">
+                      <span class="light">By</span> Gordon G. Chang
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sponsorcont text-center">
+              <div class="sponsor">
+                <div class="sponsorimg position-relative">
+                  <h3
+                    class="tag roboto mt-3 text-secondary position-absolute bg-light px-3 py-2"
+                  >
+                    Sponsored Insight
+                  </h3>
+                  <img
+                    src="assets/images/americas-best-nursing-homes-2020.png"
+                    alt="sponsor"
+                    class="sponsorimg w-100"
+                  />
+                </div>
+                <div class="info p-3">
+                  <h3>
+                    <a
+                      href="#"
+                      target="_blank"
+                      class="roboto text-dark sponsor-header"
+                      >What Could a Career in Engineering or Computer Science Do
+                      For You?
+                    </a>
+                  </h3>
+                  <div class="summary">
+                    Could this be the perfect time for you to pursue a career in
+                    engineering or computer science? Find out how to get
+                    started.
+                  </div>
+                </div>
+              </div>
+
+              <div class="sponsor sponsor-form mt-4 p-3">
+                <div class="card p-3">
+                  <div class="news-signup">
+                    <div class="news-title roboto">
+                      Start your day with our top 5 articles
+                    </div>
+
+                    <form class="form-signup">
+                      <input
+                        type="text"
+                        class="form-text w-100 mt-2"
+                        placeholder="Email address"
+                      />
+                      <input
+                        type="submit"
+                        class="form-submit w-100 mt-2 roboto bg-color text-white py-2"
+                        value="Free Sign Up"
+                      />
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sponsor mt-4">
+                <div class="sponsorimg position-relative">
+                  <h3
+                    class="tag roboto mt-3 text-secondary position-absolute bg-light px-3 py-2"
+                  >
+                    Sponsored Insight
+                  </h3>
+                  <img
+                    src="assets/images/kent-state-university.png"
+                    alt="sponsor"
+                    class="sponsorimg w-100"
+                  />
+                </div>
+                <div class="info p-3">
+                  <h3>
+                    <a
+                      href="#"
+                      target="_blank"
+                      class="roboto text-dark sponsor-header"
+                      >What Could a Career in Engineering or Computer Science Do
+                      For You?
+                    </a>
+                  </h3>
+                  <div class="summary">
+                    Could this be the perfect time for you to pursue a career in
+                    engineering or computer science? Find out how to get
+                    started.
+                  </div>
+                </div>
+              </div>
+
+              <div class="sponsor mt-4">
+                <div class="sponsorimg position-relative">
+                  <h3
+                    class="tag roboto mt-3 text-secondary position-absolute bg-light px-3 py-2"
+                  >
+                    Sponsored Insight
+                  </h3>
+                  <img
+                    src="assets/images/image-3-this-startup-making.jpg"
+                    alt="sponsor"
+                    class="sponsorimg w-100"
+                  />
+                </div>
+                <div class="info p-3">
+                  <h3>
+                    <a
+                      href="#"
+                      target="_blank"
+                      class="roboto text-dark sponsor-header"
+                      >What Could a Career in Engineering or Computer Science Do
+                      For You?
+                    </a>
+                  </h3>
+                  <div class="summary">
+                    Could this be the perfect time for you to pursue a career in
+                    engineering or computer science? Find out how to get
+                    started.
+                  </div>
+                </div>
+              </div>
+
+              <div class="sponsor mt-4">
+                <div class="sponsorimg position-relative">
+                  <h3
+                    class="tag roboto mt-3 text-secondary position-absolute bg-light px-3 py-2"
+                  >
+                    Sponsored Insight
+                  </h3>
+                  <img
+                    src="assets/images/herrman-herrman-pllc.jpg"
+                    alt="sponsor"
+                    class="sponsorimg w-100"
+                  />
+                </div>
+                <div class="info p-3">
+                  <h3>
+                    <a
+                      href="#"
+                      target="_blank"
+                      class="roboto text-dark sponsor-header"
+                      >What Could a Career in Engineering or Computer Science Do
+                      For You?
+                    </a>
+                  </h3>
+                  <div class="summary">
+                    Could this be the perfect time for you to pursue a career in
+                    engineering or computer science? Find out how to get
+                    started.
+                  </div>
+                </div>
+              </div>
+
+              <div class="sponsor mt-4">
+                <div class="sponsorimg position-relative">
+                  <h3
+                    class="tag roboto mt-3 text-secondary position-absolute bg-light px-3 py-2"
+                  >
+                    Sponsored Insight
+                  </h3>
+                  <img
+                    src="assets/images/americas-best-addiction-treatment-centers-2020.png"
+                    alt="sponsor"
+                    class="sponsorimg w-100"
+                  />
+                </div>
+                <div class="info p-3">
+                  <h3>
+                    <a
+                      href="#"
+                      target="_blank"
+                      class="roboto text-dark sponsor-header"
+                      >What Could a Career in Engineering or Computer Science Do
+                      For You?
+                    </a>
+                  </h3>
+                  <div class="summary">
+                    Could this be the perfect time for you to pursue a career in
+                    engineering or computer science? Find out how to get
+                    started.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Magazine section -->
+        <section class="mt-5 s5">
+          <div
+            class="section-head d-flex justify-content-center align-items-start"
+          >
+            <span class="n-logo bg-color text-white px-2">N</span>
+            <h5 class="d-inline px-2 roboto">IN THE MAGAZINE</h5>
+          </div>
+          <hr />
+          <div class="row mt-4">
+            <div class="col-lg-3 col-md-3">
+              <div class="section-content bg-light">
+                <div class="section-img position-relative">
+                  <img
+                    class="w-100 img-size-big"
+                    src="assets/images/cover-october-09-16-2020.jpg"
+                    alt="cover"
+                  />
+                  <p class="position-absolute absolute-p bg-light p-2">
+                    OCTOBER 16 ISSUES
+                  </p>
+                </div>
+                <p class="text-center py-3 w-100">
+                  SEE ALL FEATURES <i class="fas fa-angle-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-12 w-100">
+              <div class="section-content">
+                <div class="section-img">
+                  <img
+                    class="w-100 img-size"
+                    src="assets/images/fe-rbg-banner.jpg"
+                    alt="banner"
+                  />
+                </div>
+                <div
+                  class="section-p-tag d-flex justify-content-start align-items-center mt-2 head-fonts"
+                >
+                  <p class="mr-1 bg-color p-2 text-white font-weight-bold">
+                    CULTURE
+                  </p>
+                  <p class="text-center txt-color font-weight-bold">US</p>
+                </div>
+                <p class="font-weight-bold">
+                  Biden Should Promise to Pack the Supreme Court to Save It From
+                  Partisan War
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3">
+              <div class="section-content">
+                <div class="section-img">
+                  <img
+                    class="w-100 img-size"
+                    src="assets/images/rbg-memorial.jpg"
+                    alt="memorial"
+                  />
+                </div>
+                <div
+                  class="section-p-tag d-flex justify-content-start align-items-center mt-2 head-fonts"
+                >
+                  <p class="mr-1 bg-color p-2 text-white font-weight-bold">
+                    FEATURES
+                  </p>
+                  <p class="text-center txt-color font-weight-bold">POLITICS</p>
+                </div>
+                <p class="font-weight-bold">
+                  If Elected, Who Would Joe Biden Pick for the Supreme Court?
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3">
+              <div class="section-content">
+                <div class="section-img">
+                  <img
+                    class="w-100 img-size"
+                    src="assets/images/justice-ruth-bader-ginsburg.jpg"
+                    alt="justice"
+                  />
+                </div>
+                <div
+                  class="section-p-tag d-flex justify-content-start align-items-center mt-2 head-fonts"
+                >
+                  <p class="mr-1 bg-color p-2 text-white font-weight-bold">
+                    FEATURES
+                  </p>
+                  <p class="text-center txt-color font-weight-bold">OPINION</p>
+                </div>
+                <p class="font-weight-bold">
+                  The Conservative Legacy of Ruth Bader Ginsburg
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-3 col-md-3">
+              <div class="section-content">
+                <div class="section-img">
+                  <img
+                    class="w-100 img-size"
+                    src="assets/images/per-latinovote-05-1158241102.jpg"
+                    alt="latinovote"
+                  />
+                </div>
+                <div
+                  class="section-p-tag d-flex justify-content-start align-items-center mt-2 head-fonts"
+                >
+                  <p class="mr-1 bg-color p-2 text-white font-weight-bold">
+                    PERISCOPE
+                  </p>
+                  <p class="text-center txt-color font-weight-bold">CULTURE</p>
+                </div>
+                <p class="font-weight-bold">
+                  Biden Tries to Close the Deal with Latinos, As Florida Remains
+                  A Headache
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="section-content">
+                <div class="section-img">
+                  <img
+                    class="img-size w-100"
+                    src="assets/images/cul-map-wes-anderson-white-cyclon-banner.jpg"
+                    alt="map"
+                  />
+                </div>
+                <div
+                  class="section-p-tag d-flex justify-content-start align-items-center mt-2 head-fonts"
+                >
+                  <p class="mr-1 bg-color p-2 text-white font-weight-bold">
+                    DOWNTIME
+                  </p>
+                  <p class="text-center txt-color font-weight-bold">CULTURE</p>
+                </div>
+                <p class="font-weight-bold">
+                  'Accidentally Wes Anderson' Around the World
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="section-content">
+                <div class="section-img">
+                  <img
+                    class="w-100 img-size"
+                    src="assets/images/long-way-hero-2.jpg"
+                    alt="long way"
+                  />
+                </div>
+                <div
+                  class="section-p-tag d-flex justify-content-start align-items-center mt-2 head-fonts"
+                >
+                  <p class="mr-1 bg-color p-2 text-white font-weight-bold">
+                    FEATURES
+                  </p>
+                  <p class="text-center txt-color font-weight-bold">OPINION</p>
+                </div>
+                <p class="font-weight-bold">
+                  Choose Electric: Ewan McGregor Rides Into the Future in 'Long
+                  Way Up'
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="section-content">
+                <div class="section-img">
+                  <img
+                    class="w-100 img-size"
+                    src="assets/images/dissent.jpg"
+                    alt="dissent"
+                  />
+                </div>
+                <div
+                  class="section-p-tag d-flex justify-content-start align-items-center mt-2 head-fonts"
+                >
+                  <p class="mr-1 bg-color p-2 text-white font-weight-bold">
+                    IN FOCUS
+                  </p>
+                  <p class="text-center txt-color font-weight-bold">
+                    THE CONTENDERS
+                  </p>
+                </div>
+                <p class="font-weight-bold">DISSENT</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End of Magazine section -->
+
+        <!-- Start of Editors Section -->
+        <section class="mt-4 s5">
+          <div
+            class="section-head d-flex justify-content-center align-items-start"
+          >
+            <span class="n-logo bg-color text-white px-2">N</span>
+            <h3 class="d-inline px-2 roboto">EDITOR'S PICK</h3>
+          </div>
+          <hr />
+          <div class="row mt-4 align-baseline">
+            <div class="col-lg-3 col-md-6 align-self-center">
+              <div class="section-content">
+                <div class="section-img position-relative">
+                  <h6
+                    class="tag roboto mt-3 text-secondary position-absolute bg-light px-3 py-2 text-danger"
+                  >
+                    POLITICS
+                  </h6>
+                  <img
+                    class="small-img"
+                    src="assets/images/kamala-harris.jpg"
+                    alt="kamala-harris"
+                  />
+                </div>
+                <p
+                  class="mt-2 text-dark font-weight-bold roboto sponsor-header"
+                >
+                  Harris Battles With ACB on Whether She Knew Trump Wanted
+                  Anti-ACA Judges
+                </p>
+                <p>
+                  The California senator and Democratic vice presidential
+                  nominee questioned Judge Barrett on Tuesday, during the second
+                  of four confirmation hearings.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 align-self-center">
+              <div class="section-content">
+                <div class="section-img position-relative">
+                  <h6
+                    class="tag roboto mt-3 text-secondary position-absolute bg-light px-3 py-2 text-danger"
+                  >
+                    U.S
+                  </h6>
+                  <img
+                    class="small-img"
+                    src="assets/images/joe-biden.jpg"
+                    alt="joe-biden"
+                  />
+                </div>
+                <p
+                  class="mt-2 text-dark font-weight-bold roboto sponsor-header"
+                >
+                  Harris Battles With ACB on Whether She Knew Trump Wanted
+                  Anti-ACA Judges
+                </p>
+                <p>
+                  The California senator and Democratic vice presidential
+                  nominee questioned Judge Barrett on Tuesday, during the second
+                  of four confirmation hearings.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 align-self-center">
+              <div class="section-content">
+                <div class="section-img position-relative">
+                  <h3
+                    class="tag roboto mt-3 text-secondary position-absolute bg-light px-3 py-2 text-danger"
+                  >
+                    U.S
+                  </h3>
+                  <img
+                    class="small-img"
+                    src="assets/images/los-angeles-lakers-nba-finals.jpg"
+                    alt="angeles"
+                  />
+                </div>
+                <p
+                  class="mt-2 text-dark font-weight-bold roboto sponsor-header"
+                >
+                  Harris Battles With ACB on Whether She Knew Trump Wanted
+                  Anti-ACA Judges
+                </p>
+                <p>
+                  The California senator and Democratic vice presidential
+                  nominee questioned Judge Barrett on Tuesday, during the second
+                  of four confirmation hearings.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 align-self-center">
+              <div class="section-content">
+                <div class="section-img position-relative">
+                  <h3
+                    class="tag roboto mt-3 text-secondary position-absolute bg-light px-3 py-2 text-danger"
+                  >
+                    NEWS
+                  </h3>
+                  <img
+                    class="small-img"
+                    src="assets/images/jeffrey-epstein-ghislaine-maxwell-florida.jpg"
+                    alt="jeffrey-epstein-ghislaine-maxwell-florida"
+                  />
+                </div>
+                <p
+                  class="mt-2 text-dark font-weight-bold roboto sponsor-header"
+                >
+                  Harris Battles With ACB on Whether She Knew Trump Wanted
+                  Anti-ACA Judges
+                </p>
+                <p>
+                  The California senator and Democratic vice presidential
+                  nominee questioned Judge Barrett on Tuesday, during the second
+                  of four confirmation hearings.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="section-content">
+                <div class="section-img position-relative">
+                  <h3
+                    class="tag roboto mt-3 text-secondary position-absolute bg-light px-3 py-2 text-danger"
+                  >
+                    TECH & NEWS
+                  </h3>
+                  <img
+                    class="small-img"
+                    src="assets/images/tardigrade.jpg"
+                    alt="tardigrade"
+                  />
+                </div>
+                <p
+                  class="mt-2 text-dark font-weight-bold roboto sponsor-header"
+                >
+                  These Tardigrades Have a Special Glow-in-the-Dark Shield
+                </p>
+                <p>
+                  The animals contain a fluorescent substance which absorbs
+                  harmful ultraviolet radiation and emits harmless blue light.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="section-content">
+                <div class="section-img position-relative">
+                  <h3
+                    class="tag roboto mt-3 text-secondary position-absolute bg-light px-3 py-2 text-danger"
+                  >
+                    NEWS
+                  </h3>
+                  <img class="small-img" src="assets/images/usps.jpg" alt="" />
+                </div>
+                <p
+                  class="mt-2 text-dark font-weight-bold roboto sponsor-header"
+                >
+                  Senators Demand Answers After USPS Failed to Update Voter
+                  Addresses
+                </p>
+                <p>
+                  At least 1.8 million new changes of address were not
+                  registered in the postal agency's database, which most states
+                  use to keep voter rolls current, for three weeks in August.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="section-content">
+                <div class="section-img position-relative">
+                  <h3
+                    class="tag roboto mt-3 text-secondary position-absolute bg-light px-3 py-2 text-danger"
+                  >
+                    SPORT
+                  </h3>
+                  <img
+                    class="small-img"
+                    src="assets/images/joe-biden-pennsylvania.jpg"
+                    alt="joe-biden-pennsylvania"
+                  />
+                </div>
+                <p
+                  class="mt-2 text-dark font-weight-bold roboto sponsor-header"
+                >
+                  Joe Biden Has 74 Percent Chance of Winning Pennsylvania:
+                  Bookmakers
+                </p>
+                <p>
+                  Biden has a 74 percent implied chance of taking the must-win
+                  state, while Trump is trailing with an implied chance of 28
+                  per cent.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="section-content">
+                <div class="section-img position-relative">
+                  <h3
+                    class="tag roboto mt-3 text-secondary position-absolute bg-light px-3 py-2 text-danger"
+                  >
+                    TECH & SCIENCE
+                  </h3>
+                  <img
+                    class="small-img"
+                    src="assets/images/billie-eilish.jpg"
+                    alt="billie-eilish"
+                  />
+                </div>
+                <p
+                  class="mt-2 text-dark font-weight-bold roboto sponsor-headers"
+                >
+                  Billie Eilish Body Shaming Video Goes Viral As Singer Responds
+                  to Trolls
+                </p>
+                <p>
+                  A new photo of Eilish without her signature baggy clothes has
+                  sparked a discussion on body shaming.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End of  Editors section -->
+
+        <!-- section US-->
+        <section class="mt-3 s5">
+          <h3 class="txt-color font-weight-bold">US</h3>
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                class="lg-img"
+                src="assets/images/donald-trump-jr-lincoln-project-ad-biden.jpg"
+                alt="project"
+              />
+              <h5 class="mt-2 roboto">
+                Lincoln Project Doctors Video to Show Donald Trump Jr.
+                Supporting Biden
+              </h5>
+            </div>
+            <div class="col-md-4">
+              <img class="lg-img" src="assets/images/ice-cube.jpg" alt="" />
+              <h5 class="mt-2 roboto">
+                Ice Cube Says All Blacks Should Be Independents After Trump
+                Controversy
+              </h5>
+            </div>
+            <div class="col-md-4">
+              <div class="grid-flex d-flex">
+                <img
+                  src="assets/images/donald-trump-bending.jpg"
+                  alt="bending"
+                  class="x-small"
+                />
+                <p class="ml-2 roboto">Did Donald Trump Denounce QAnon?</p>
+              </div>
+              <hr />
+              <div class="grid-flex d-flex">
+                <img
+                  src="assets/images/taxes.jpg"
+                  alt="taxes"
+                  class="x-small"
+                />
+                <p class="ml-2 roboto">
+                  Texas CEO Charged in $2 Billion Tax Evasion Scheme, Largest in
+                  U.S. History
+                </p>
+              </div>
+              <hr />
+              <div class="grid-flex d-flex">
+                <img
+                  src="assets/images/d-trump.jpg"
+                  alt="d-trump"
+                  class="x-small"
+                />
+                <p class="ml-2 roboto">
+                  NBC News Remains Silent on Whether Trump Will Be Fact Checked
+                  in Town Hall
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End of section US -->
+        <hr />
+        <!-- section WORLD -->
+        <section class="mt-3 s5">
+          <h3 class="txt-color font-weight-bold">World</h3>
+          <div class="row">
+            <div class="col-md-4">
+              <img class="lg-img" src="assets/images/wm1.jpg" alt="wm1" />
+              <h5 class="mt-2 roboto">
+                Iran Ready for Arms Trade with 'Many Friends,' US left in
+                'Isolation'
+              </h5>
+            </div>
+            <div class="col-md-4">
+              <img class="lg-img" src="assets/images/wm2.jpg" alt="wm2" />
+              <h5 class="mt-2 roboto">
+                Apple Is Censoring Belarus Protesters, Activists Say
+              </h5>
+            </div>
+            <div class="col-md-4">
+              <div class="grid-flex d-flex">
+                <img src="./assets/images/wm3.jpg" alt="wm3" class="x-small" />
+                <p class="ml-2 roboto">
+                  How Your Food Consumption Impacts the Global Environment
+                </p>
+              </div>
+              <hr />
+              <div class="grid-flex d-flex">
+                <img src="./assets/images/wm4.jpg" alt="wm4" class="x-small" />
+                <p class="ml-2 roboto">
+                  Texas CEO Charged in $2 Billion Tax Evasion Scheme, Largest in
+                  U.S. History
+                </p>
+              </div>
+              <hr />
+              <div class="grid-flex d-flex">
+                <img src="./assets/images/wm5.jpg" alt="wm5" class="x-small" />
+                <p class="ml-2 roboto">
+                  NBC News Remains Silent on Whether Trump Will Be Fact Checked
+                  in Town Hall
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end of section WORLD-->
+        <hr />
+        <!-- section BUSINESS-->
+        <section class="mt-3 s5">
+          <h3 class="txt-color font-weight-bold">Business</h3>
+          <div class="row">
+            <div class="col-md-4">
+              <img class="lg-img" src="assets/images/bs1.jpg" alt="bs1" />
+              <h5 class="mt-2 roboto">
+                Lincoln Project Doctors Video to Show Donald Trump Jr.
+                Supporting Biden
+              </h5>
+            </div>
+            <div class="col-md-4">
+              <img
+                class="lg-img"
+                src="assets/images/china-trade-manufacturing.jpg"
+                alt="bs2"
+              />
+              <h5 class="mt-2 roboto">
+                Five Money Moves to Make Right Now to Overcome Your Biggest
+                Financial Worries
+              </h5>
+            </div>
+            <div class="col-md-4">
+              <div class="grid-flex d-flex">
+                <img src="assets/images/bsm3.jpg" alt="bsm3" class="x-small" />
+                <p class="ml-2 roboto">
+                  Officials Keep U.S.-China Trade Deal Alive Despite 'Tantrum
+                  Diplomacy'
+                </p>
+              </div>
+              <hr />
+              <div class="grid-flex d-flex">
+                <img
+                  src="./assets/images/bsm4.jpg"
+                  alt="bsm4"
+                  class="x-small"
+                />
+                <p class="ml-2 roboto">
+                  Inflation Is Set to Rise. Here's What That Means for Your
+                  Finances
+                </p>
+              </div>
+              <hr />
+              <div class="grid-flex d-flex">
+                <img
+                  src="./assets/images/bsm5.jpg"
+                  alt="bsm5"
+                  class="x-small"
+                />
+                <p class="ml-2 roboto">
+                  Trump Touts Markets as Vote of Confidence, But They Bet He'll
+                  Lose Election
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end of section BUSINESS-->
+        <hr />
+        <!-- section TECH & SCIENCE -->
+        <section class="mt-3 s5">
+          <h3 class="txt-color font-weight-bold">Tech & Science</h3>
+          <div class="row">
+            <div class="col-md-4">
+              <img class="lg-img" src="assets/images/tech1.jpg" alt="tech1" />
+              <h5 class="mt-2 roboto">
+                Iran Ready for Arms Trade with 'Many Friends,' US left in
+                'Isolation'
+              </h5>
+            </div>
+            <div class="col-md-4">
+              <img class="lg-img" src="assets/images/tech2.jpg" alt="tech2" />
+              <h5 class="mt-2 roboto">
+                Enormous, 165 Ft Deep Crater Opens on Siberia's Arctic Tundra
+              </h5>
+            </div>
+            <div class="col-md-4">
+              <div class="grid-flex d-flex">
+                <img
+                  src="./assets/images/tech4.jpg"
+                  alt="tech3"
+                  class="x-small"
+                />
+                <p class="ml-2 roboto">
+                  Full Corn Moon Tonight to Set Stage for Rare Halloween Blue
+                  Moon
+                </p>
+              </div>
+              <hr />
+              <div class="grid-flex d-flex">
+                <img
+                  src="./assets/images/tech3.jpg"
+                  alt="tech4"
+                  class="x-small"
+                />
+                <p class="ml-2 roboto">
+                  Facebook, Struggling to Combat Far-Right Extremism, Threatens
+                  to Block News
+                </p>
+              </div>
+              <hr />
+              <div class="grid-flex d-flex">
+                <img
+                  src="./assets/images/tech5.jpg"
+                  alt="tech5"
+                  class="x-small"
+                />
+                <p class="ml-2 roboto">
+                  It's 'Critical' for Americans Not to Use Apps Made in China,
+                  Navarro Says
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end of section TECH & SCIENCE -->
+        <hr />
+        <!-- section CULTURE-->
+        <section class="mt-3 s5">
+          <h3 class="txt-color font-weight-bold">Culture</h3>
+          <div class="row">
+            <div class="col-md-4">
+              <img class="lg-img" src="assets/images/c1.jpg" alt="c1" />
+              <h4 class="mt-2 roboto">
+                Watch a Nurse Pull a Four-Foot Snake Out of a Woman's Throat
+              </h4>
+            </div>
+            <div class="col-md-4">
+              <img class="lg-img" src="assets/images/c2.jpg" alt="c2" />
+              <h4 class="mt-2 roboto">
+                "Eat The Rich": Elvis Presley's Beloved Graceland Vandalized
+              </h4>
+            </div>
+            <div class="col-md-4">
+              <div class="grid-flex d-flex">
+                <img src="assets/images/c3.jpg" alt="c3" class="x-small" />
+                <p class="ml-2 roboto">
+                  Do You Smell What The Rock Is Cooking? Because Dictionary.com
+                  Does
+                </p>
+              </div>
+              <hr />
+              <div class="grid-flex d-flex">
+                <img src="assets/images/c4.jpg" alt="c4" class="x-small" />
+                <p class="ml-2 roboto">
+                  Body-Cam Footage Shows Cops Hunting For Trespasser at
+                  Shuttered Disney Park
+                </p>
+              </div>
+              <hr />
+              <div class="grid-flex d-flex">
+                <img src="assets/images/c5.jpg" alt="c5" class="x-small" />
+                <p class="ml-2 roboto">
+                  Kufrin Breakup: Ex Garrett Yrigoyen Has Been in Hot Water
+                  Before
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end of section CULTURE -->
+        <hr />
+        <!-- section SPORTS -->
+        <section class="mt-3 s5">
+          <h3 class="txt-color font-weight-bold">Sports</h3>
+          <div class="row">
+            <div class="col-md-4">
+              <img class="lg-img" src="assets/images/sp1.jpg" alt="sp1" />
+              <h4 class="mt-2 roboto">
+                Finn Bálor Talks Finally Getting His Walter Match
+              </h4>
+            </div>
+            <div class="col-md-4">
+              <img class="lg-img" src="assets/images/sp2.jpg" alt="sp2" />
+              <h4 class="mt-2 roboto">
+                WWE 'Monday Night RAW' Results: Drew McIntyre's Next Opponent
+                Decided
+              </h4>
+            </div>
+            <div class="col-md-4">
+              <div class="grid-flex d-flex">
+                <img src="assets/images/sp3.jpg" alt="sp3" class="x-small" />
+                <p class="ml-2 roboto">
+                  2020 College Football Preview, Top 20 Preseason Ranking and
+                  CFP Prediction
+                </p>
+              </div>
+              <hr />
+              <div class="grid-flex d-flex">
+                <img src="assets/images/sp4.jpg" alt="sp4" class="x-small" />
+                <p class="ml-2 roboto">
+                  WWE 'Payback' 2020: Start Time, Card & How to Watch Online
+                </p>
+              </div>
+              <hr />
+              <div class="grid-flex d-flex">
+                <img src="assets/images/sp5.jpg" alt="sp5" class="x-small" />
+                <p class="ml-2 roboto">
+                  GA Senator, Critic of BLM Movement, Says She Has No Plans to
+                  Sell WNBA Team
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end of section SPORTS -->
+        <hr />
+        <!-- section SUBCRIBE -->
+        <section class="mt-3 s5">
+          <div class="row">
+            <div class="col-lg-8 subscribe-sec">
+              <h5 class="txt-color roboto font-weight-bold">SUBSCRIBE</h5>
+
+              <div
+                class="item-cont-2 d-lg-flex d-md-flex d-block justify-content-between p-4 bg-light"
+              >
+                <div class="absoluteimg position-relative">
+                  <img
+                    src="assets/images/cover-october-02-2020.jpg"
+                    alt="cover"
+                    class="absolute-item"
+                  />
+                  <img
+                    src="assets/images/cover-october-09-16-2020.jpg"
+                    alt="october"
+                    class="absolute-item abs-item-2 position-absolute"
+                  />
+                </div>
+                <div class="relativetext">
+                  <h5 class="w-75 roboto top-head">
+                    In-depth Stories You Don't See Elsewhere About Topics You
+                    Want to Read!
+                  </h5>
+                  <p class="mt-2">
+                    All Access + Weekly Delivery. <br />Choose A Membership
+                    That's Perfect for You!
+                  </p>
+                  <button
+                    class="subscribe-3 bg-color text-white rounded border-0 p-2 font-weight-bold roboto"
+                  >
+                    Subscribe <i class="fas fa-angle-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <h5 class="txt-color text-uppercase roboto font-weight-bold">
+                Newsletter
+              </h5>
+
+              <div class="item-cont-2 d-flex flex-column flex-sm-row">
+                <img
+                  src="assets/images/starting5-homepage.png"
+                  alt="starting5-homepage"
+                  class="longimg flex-column d-md-block"
+                />
+
+                <div class="textcont2 p-3">
+                  <h3 class="roboto">The Starting 5</h3>
+                  <p class="text-justify w-100">
+                    See why nearly a quarter of a million subscribers begin
+                    their day with the Starting 5.
+                  </p>
+                  <input
+                    type="text"
+                    class="form-text mb-3 py-2"
+                    placeholder="Email address"
+                  />
+                  <button
+                    class="subscribe-3 bg-color text-white rounded border-0 p-2 font-weight-bold roboto"
+                  >
+                    FREE SIGN UP <i class="fas fa-angle-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end of section SUBCRIBE -->
+      </main>
+
+      <!-- FOOTER SECTION -->
+
+      <footer class="mt-5 px-5 overflow-hidden">
+        <div class="footerlogo d-md-flex d-block justify-content-between">
+          <div
+            class="mainlogos position-relative d-md-flex d-block align-items-end"
+          >
+            <a href="https://www.newsweek.com">
+              <svg
+                class="brand-red mb-2"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 395.6 60"
+                style="enable-background: new 0 0 395.6 60"
+                xml:space="preserve"
+              >
+                <g>
+                  <path
+                    class="st0"
+                    d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+                  ></path>
+                </g></svg
+            ></a>
+            <p class="copyright text-secondary">© 2020 Newsweek</p>
+          </div>
+
+          <div class="sociallogos align-self-end">
+            <i class="fab fa-facebook-square fa-2x pr-2 text-secondary"></i>
+            <i class="fab fa-twitter fa-2x pr-2 text-secondary"></i>
+            <i class="fab fa-instagram fa-2x pr-2 text-secondary"></i>
+            <i class="fab fa-tumblr fa-2x pr-2 text-secondary"></i>
+            <i class="fab fa-linkedin-in fa-2x pr-2 text-secondary"></i>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="footer-links-1 d-flex">
+          <strong class="text-secondary strong">Editions:</strong>
+          <ul class="menu list-unstyled d-flex flex-wrap ml-2 first-list">
+            <li class="menu-li ml-2">
+              <a class="text-secondary" href="https://www.newsweek.com/"
+                >U.S. Edition</a
+              >
+            </li>
+            <li class="menu-li ml-2">
+              <a class="text-secondary" href="https://www.newsweekjapan.jp/"
+                >日本</a
+              >
+            </li>
+            <li class="menu-li ml-2">
+              <a class="text-secondary" href="http://newsweekpakistan.com/"
+                >Pakistan</a
+              >
+            </li>
+            <li class="menu-li ml-2">
+              <a class="text-secondary" href="https://www.newsweek.pl/"
+                >Polska</a
+              >
+            </li>
+            <li class="menu-li ml-2">
+              <a class="text-secondary" href="https://newsweek.ro/">România</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-links-2">
+          <ul class="menu list-unstyled d-flex flex-wrap">
+            <li class="menu-li pr-3">
+              <a
+                class="text-secondary"
+                href="https://www.newsweek.com/about-newsweek"
+                >About Us</a
+              >
+            </li>
+            <li class="menu-li pr-3">
+              <a
+                class="text-secondary"
+                href="https://www.newsweek.com/corrections"
+                >Corrections</a
+              >
+            </li>
+            <li class="menu-li pr-3">
+              <a class="text-secondary" href="https://www.newsweek.com/contact"
+                >Contact Us</a
+              >
+            </li>
+            <li class="menu-li pr-3">
+              <a
+                class="text-secondary"
+                href="https://www.newsweek.com/editorial-guidelines"
+                >Editorial Guidelines</a
+              >
+            </li>
+            <li class="menu-li pr-3">
+              <a
+                class="text-secondary"
+                href="https://www.newsweek.com/advertise"
+                >Advertise</a
+              >
+            </li>
+            <li class="menu-li pr-3">
+              <a
+                class="text-secondary"
+                href="https://www.newsweek.com/copyright"
+                >Copyright</a
+              >
+            </li>
+            <li class="menu-li pr-3">
+              <a
+                class="text-secondary"
+                href="https://www.newsweek.com/terms-service"
+                >Terms &amp; Conditions</a
+              >
+            </li>
+            <li class="menu-li pr-3">
+              <a
+                class="text-secondary"
+                href="https://www.newsweek.com/privacy-policy"
+                >Privacy Policy</a
+              >
+            </li>
+            <li class="menu-li pr-3">
+              <a
+                class="text-secondary"
+                href="https://www.newsweek.com/cookie-policy"
+                >Cookie Policy</a
+              >
+            </li>
+            <li class="menu-li pr-3">
+              <a
+                class="text-secondary"
+                href="https://www.newsweek.com/terms-sale"
+                >Terms of Sale</a
+              >
+            </li>
+            <li class="menu-li pr-3">
+              <a class="text-secondary" href="https://www.newsweek.com/archive"
+                >Archive</a
+              >
+            </li>
+            <li class="menu-li pr-3">
+              <a
+                class="text-secondary"
+                href="https://www.newsweek.com/announcements"
+                >Announcements</a
+              >
+            </li>
+            <li>
+              <a
+                href="javascript:Didomi.preferences.show()"
+                class="text-secondary"
+                >Consent preferences</a
+              >
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

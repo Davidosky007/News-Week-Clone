@@ -1,0 +1,346 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #f4f5f6;
+}
+
+img {
+  object-fit: cover;
+}
+
+/* MAIN STYLING */
+
+.container-main {
+  width: 97%;
+}
+
+.bg-color {
+  background-color: #f72210;
+}
+
+.txt-color {
+  color: #f72210;
+}
+
+.weather-logo {
+  height: 24px;
+  width: 24px;
+}
+
+.brand {
+  width: 396px;
+  height: 60px;
+  fill: white;
+}
+
+.brand-m-s {
+  width: 132px;
+  height: 35px;
+  fill: white;
+}
+
+.login {
+  font-size: 18px;
+  background: none;
+  border: none;
+}
+
+.subscription {
+  font-size: 18px;
+  background-color: #ffe400;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.subscription-small {
+  font-size: 17px;
+  background-color: #ffe400;
+  border: none;
+  height: 31px;
+  border-radius: 20px;
+}
+
+.bar {
+  font-size: 27px;
+  transform: scale(1.3);
+}
+
+.person {
+  transform: scale(1.2);
+}
+
+.roboto {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.textbar-bold {
+  font-size: 16px;
+}
+
+.redclip {
+  width: 70px;
+  height: 12px;
+  right: 0;
+  top: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 36% 100%);
+}
+
+.info {
+  border: 1px solid rgba(166, 166, 166, 0.56);
+}
+
+.form-submit {
+  border: none;
+  border-radius: 2px;
+}
+
+.sponsor-form {
+  background-color: #e2e0e0;
+}
+
+.sponsor-header {
+  font-size: 20px;
+}
+
+.card {
+  background-color: #e2e0e0;
+}
+
+.news-signup {
+  background-color: #e2e0e0;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.title-small {
+  font-size: 14px;
+}
+
+.fleximg {
+  width: 95px;
+  height: 95px;
+}
+
+.flex-title {
+  font-size: 15px;
+}
+
+.flex-description {
+  font-size: 13px;
+}
+
+.heavy1 {
+  height: 3px;
+  background-color: grey;
+  opacity: 0.5;
+}
+
+.heavy2 {
+  height: 3px;
+  border: 1px solid black;
+  opacity: 0.5;
+}
+
+.tag {
+  font-size: 17px;
+  bottom: -8px;
+  left: 0;
+  color: red;
+}
+
+.circimg {
+  height: 65px;
+  width: 65px;
+}
+
+.bcircle {
+  top: -20px;
+  left: 40%;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.heading1 {
+  font-size: 24px;
+}
+
+.absolute-p {
+  bottom: -17px;
+}
+
+.smallimg {
+  width: 155px;
+  height: 155px;
+}
+
+.my-img {
+  width: 100%;
+  height: 290px;
+}
+
+.small-img {
+  width: 100%;
+  height: 200px;
+}
+
+.lg-img {
+  width: 100%;
+  height: 250px;
+}
+
+.x-small {
+  width: 95px;
+  height: 95px;
+}
+
+.absolute-item {
+  width: 170px;
+  height: 227px;
+}
+
+.abs-item-2 {
+  left: 50px;
+  top: 10px;
+}
+
+.relativetext {
+  margin-left: 15%;
+}
+
+.longimg {
+  width: 35%;
+}
+
+.n-logo {
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.img-section {
+  width: 100%;
+  height: 222px;
+}
+
+.subscribe-3 {
+  font-size: 20px;
+}
+
+.form-text {
+  border: 1px solid lightgray;
+}
+
+.brand-red {
+  width: 236px;
+  height: 36px;
+  fill: #f72210;
+}
+
+.copyright {
+  bottom: -1.3rem;
+  right: -9rem;
+}
+
+.s5 {
+  width: 95%;
+  margin: auto;
+}
+
+.img-size {
+  width: 100%;
+  height: 200px;
+}
+
+.img-size-big {
+  width: 100%;
+  height: 260px;
+}
+
+.head-fonts {
+  font-size: 85%;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .sponsor {
+    width: 50%;
+    margin: auto;
+  }
+
+  .subscribe-3 {
+    height: 47px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sponsor-form {
+    width: 70%;
+    margin: auto;
+  }
+
+  .subscribe-sec {
+    text-align: center;
+  }
+
+  .abs-item-2 {
+    left: 30%;
+  }
+
+  .relativetext {
+    text-align: center;
+  }
+
+  .bar {
+    font-size: 27px;
+    padding: 4px;
+  }
+
+  .top-head {
+    position: absolute;
+    top: 200px;
+    z-index: 100;
+    left: 50px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .brand-m-s {
+    width: 84px;
+    height: 34px;
+    fill: white;
+  }
+
+  .bar {
+    font-size: 24px;
+    padding: 4px;
+  }
+
+  .longimg {
+    width: 100%;
+  }
+
+  .subscription-small {
+    font-size: 12px;
+    background-color: #ffe400;
+    border: none;
+    height: 26px;
+    border-radius: 20px;
+  }
+
+  .footer-links-1 {
+    font-size: 85%;
+  }
+}
