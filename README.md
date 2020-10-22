@@ -1,8 +1,4 @@
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Project Name
-
 # # News-Week-Clone
 
 > This project is part of Microverse HTML/CSS curriculum
@@ -21,6 +17,7 @@ See the source page below:
 - Fontawesome library
 - Iconify library
 - Bootstrap
+
 ## Live Demo
 
 [Live Demo Link](https://davidosky007.github.io/News-Week-Clone/)
@@ -46,14 +43,13 @@ To get a local copy up and running follow these simple example steps.
 
 - Open index.html file in any modern browser
 
-
 ## Authors
 
 👤 **David Bassey**
 
 - GitHub: [@davidosky007](https://github.com/davidosky007)
 - Twitter: [@davidosky2](https://twitter.com/Davidosky2)
-- LinkedIn:  [David Bassey](https://www.linkedin.com/in/david-bassey-2b9671199/)
+- LinkedIn: [David Bassey](https://www.linkedin.com/in/david-bassey-2b9671199/)
 
 👤 **Iris Enaelle Kineza**
 
@@ -73,7 +69,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
 - Thanks to Colorzilla by making designing easier
 - Thanks to stand-up team for raising issues and giving constructive critics out
 - Thanks to image downloader
